@@ -1,0 +1,44 @@
+{
+    "ItemsLFOD": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "item_size": 32,
+        "rows": [
+            [
+                "NormalSword",
+                "SuppliesBox",
+                "HumbleIndieBindle",
+                "Pickaxe",
+                "SeasonPass"
+            ],
+            [
+                "PackParticles",
+                "PackDayOnePatch",
+                "PackCheckpoint",
+                "PackIncrediblyImportant",
+                "PackWallJump"
+            ],
+            [
+                "PackHealthBar",
+                "PackParallax",
+                "PackHarmlessPlants",
+                "PackDeathOfComedy",
+                "PackCanadianDialog"
+            ],
+            [
+                "PackDLCNPC",
+                "PackCutContent",
+                "PackNameChange",
+                "PackHighDefNextGen",
+                "PackIncreasedHP"
+            ],
+            [
+                "PackRemovedAds",
+                "PackBigSword",
+                "PackReallyBigSword",
+                "PackUnfathomableSword"
+            ]
+        ]
+    }
+}

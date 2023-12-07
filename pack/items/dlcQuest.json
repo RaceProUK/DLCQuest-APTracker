@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Sword",
+        "type": "toggle",
+        "img": "images/DLC/Sword.png",
+        "codes": "Sword"
+    },
+    {
+        "name": "Gun",
+        "type": "toggle",
+        "img": "images/DLC/Gun.png",
+        "codes": "Gun"
+    },
+    {
+        "name": "Movement Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackMovement.png",
+        "codes": "PackMovement"
+    },
+    {
+        "name": "Animation Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackAnimation.png",
+        "codes": "PackAnimation"
+    },
+    {
+        "name": "Audio Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackAudio.png",
+        "codes": "PackAudio"
+    },
+    {
+        "name": "Pause Menu Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackPauseMenu.png",
+        "codes": "PackPauseMenu"
+    },
+    {
+        "name": "Time Is Money Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackTimeIsMoney.png",
+        "codes": "PackTimeIsMoney"
+    },
+    {
+        "name": "Double Jump Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackDoubleJump.png",
+        "codes": "PackDoubleJump"
+    },
+    {
+        "name": "Pet Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackPet.png",
+        "codes": "PackPet"
+    },
+    {
+        "name": "Sexy Outfits Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackSexyOutfits.png",
+        "codes": "PackSexyOutfits"
+    },
+    {
+        "name": "Top Hat Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackTopHat.png",
+        "codes": "PackTopHat"
+    },
+    {
+        "name": "Map Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackMap.png",
+        "codes": "PackMap"
+    },
+    {
+        "name": "Gun Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackGun.png",
+        "codes": "PackGun"
+    },
+    {
+        "name": "The Zombie Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackZombie.png",
+        "codes": "PackZombie"
+    },
+    {
+        "name": "Night Map Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackNightMap.png",
+        "codes": "PackNightMap"
+    },
+    {
+        "name": "Psychological Warfare Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackPsychologicalWarfare.png",
+        "codes": "PackPsychologicalWarfare"
+    },
+    {
+        "name": "Armor for your Horse Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackHorseArmor.png",
+        "codes": "PackHorseArmor"
+    },
+    {
+        "name": "Finish the Fight Pack",
+        "type": "toggle",
+        "img": "images/DLC/PackFinishTheFight.png",
+        "codes": "PackFinishTheFight"
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "name": "DLC Quest AP Tracker",
+    "game_name": "DLC Quest",
+    "author": "RaceProUK",
+    "package_uid": "dlcquest_rando_raceprouk",
+    "package_version": "0.1.0",
+    "platform": "PC",
+    "variants": {
+        "dlc": {
+            "display_name": "DLC Quest",
+            "flags": [
+                "ap"
+            ]
+        },
+        "lfod": {
+            "display_name": "Live Freemium Or Die",
+            "flags": [
+                "ap"
+            ]
+        },
+        "both": {
+            "display_name": "Both Quests",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.25.4",
+    "target_poptracker_version": "0.25.4",
+    "versions_url": "https://raw.githubusercontent.com/RaceProUK/DLCQuest-APTracker/main/versions.json"
+}

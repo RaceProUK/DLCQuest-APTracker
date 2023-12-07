@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Sword",
+        "type": "toggle",
+        "img": "images/LFOD/Sword.png",
+        "codes": "NormalSword"
+    },
+    {
+        "name": "Box of Various Supplies",
+        "type": "toggle",
+        "img": "images/LFOD/SuppliesBox.png",
+        "codes": "SuppliesBox"
+    },
+    {
+        "name": "Humble Indie Bindle",
+        "type": "toggle",
+        "img": "images/LFOD/HumbleIndieBindle.png",
+        "codes": "HumbleIndieBindle"
+    },
+    {
+        "name": "Pickaxe",
+        "type": "toggle",
+        "img": "images/LFOD/Pickaxe.png",
+        "codes": "Pickaxe"
+    },
+    {
+        "name": "Season Pass",
+        "type": "toggle",
+        "img": "images/LFOD/SeasonPass.png",
+        "codes": "SeasonPass"
+    },
+    {
+        "name": "Particles Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackParticles.png",
+        "codes": "PackParticles"
+    },
+    {
+        "name": "Day One Patch Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackDayOnePatch.png",
+        "codes": "PackDayOnePatch"
+    },
+    {
+        "name": "Checkpoint Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackCheckpoint.png",
+        "codes": "PackCheckpoint"
+    },
+    {
+        "name": "Incredibly Important Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackIncrediblyImportant.png",
+        "codes": "PackIncrediblyImportant"
+    },
+    {
+        "name": "Wall Jump Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackWallJump.png",
+        "codes": "PackWallJump"
+    },
+    {
+        "name": "Health Bar Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackHealthBar.png",
+        "codes": "PackHealthBar"
+    },
+    {
+        "name": "Parallax Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackParallax.png",
+        "codes": "PackParallax"
+    },
+    {
+        "name": "Harmless Plants Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackHarmlessPlants.png",
+        "codes": "PackHarmlessPlants"
+    },
+    {
+        "name": "Death of Comedy Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackDeathOfComedy.png",
+        "codes": "PackDeathOfComedy"
+    },
+    {
+        "name": "Canadian Dialog Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackCanadianDialog.png",
+        "codes": "PackCanadianDialog"
+    },
+    {
+        "name": "DLC NPC Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackDLCNPC.png",
+        "codes": "PackDLCNPC"
+    },
+    {
+        "name": "Cut Content Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackCutContent.png",
+        "codes": "PackCutContent"
+    },
+    {
+        "name": "Name Change Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackNameChange.png",
+        "codes": "PackNameChange"
+    },
+    {
+        "name": "High Definition Next Gen Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackHighDefNextGen.png",
+        "codes": "PackHighDefNextGen"
+    },
+    {
+        "name": "Increased HP Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackIncreasedHP.png",
+        "codes": "PackIncreasedHP"
+    },
+    {
+        "name": "Removed Ads Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackRemovedAds.png",
+        "codes": "PackRemovedAds"
+    },
+    {
+        "name": "Big Sword Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackBigSword.png",
+        "codes": "PackBigSword"
+    },
+    {
+        "name": "Really Big Sword Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackReallyBigSword.png",
+        "codes": "PackReallyBigSword"
+    },
+    {
+        "name": "Unfathomable Sword Pack",
+        "type": "toggle",
+        "img": "images/LFOD/PackUnfathomableSword.png",
+        "codes": "PackUnfathomableSword"
+    }
+]

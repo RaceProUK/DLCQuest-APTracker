@@ -1,0 +1,59 @@
+{
+    "item_tracker": {
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "DLC Quest",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "ItemsDLC"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Live Freemium Or Die",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "ItemsLFOD"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "content": {
+                                "type": "layout",
+                                "key": "Settings"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Maps",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "map",
+                                "maps": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
