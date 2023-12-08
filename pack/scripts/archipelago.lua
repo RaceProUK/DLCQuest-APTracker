@@ -42,7 +42,7 @@ function Reset(slotData)
     end
     if slotData["coinsanity"] then
         local setting = Tracker:FindObjectForCode("CoinBundleSize")
-        if slotData["coinbundlerange"] then
+        if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
             setting.AcquiredCount = tonumber(slotData["coinbundlerange"])
         else
             setting.AcquiredCount = 0
@@ -58,4 +58,36 @@ function Reset(slotData)
     end
 end
 
+function ItemReceived(index, id, name, player)
+    if index <= CurrentIndex then
+        return
+    else
+        CurrentIndex = index
+    end
+
+    local mapping = ItemMap[id]
+    local itemCode = mapping[1]
+    local item = Tracker:FindObjectForCode(itemCode)
+    if item then
+        item.Active = true
+    end
+end
+
+function LocationChecked(id, name)
+    local mapping = LocationMap[id]
+    if not mapping then
+        return
+    end
+
+    local area = mapping[1]
+    local section = mapping[2]
+    local address = "@" .. area .. "/" .. section
+    local location = Tracker:FindObjectForCode(address)
+    if location then
+        location.AvailableChestCount = location.AvailableChestCount - 1
+    end
+end
+
 Archipelago:AddClearHandler("Reset", Reset)
+Archipelago:AddItemHandler("Item Received", ItemReceived)
+Archipelago:AddLocationHandler("Location Checked", LocationChecked)
