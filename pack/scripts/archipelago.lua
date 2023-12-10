@@ -65,8 +65,7 @@ function ItemReceived(index, id, name, player)
         CurrentIndex = index
     end
 
-    local mapping = ItemMap[id]
-    local itemCode = mapping[1]
+    local itemCode = ItemMap[id]
     local item = Tracker:FindObjectForCode(itemCode)
     if item then
         item.Active = true
