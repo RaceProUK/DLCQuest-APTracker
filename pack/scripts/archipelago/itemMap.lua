@@ -40,5 +40,10 @@ ItemMap = {
     [120038] = "Sword",
     [120039] = "NormalSword",
     [120040] = "SuppliesBox",
-    [120041] = "HumbleIndieBindle"
+    [120041] = "HumbleIndieBindle",
+    [120042] = "DLCQCoinBundle",
+    [120043] = "LFODCoinBundle",
+    [120044] = "ZombieSheep",
+    [120045] = "TemporarySpike",
+    [120046] = "LoadingScreen"
 }
