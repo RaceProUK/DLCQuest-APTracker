@@ -26,8 +26,8 @@
     {
         "name": "Season Pass",
         "type": "toggle",
-        "img": "images/LFOD/SeasonPass.png",
-        "codes": "SeasonPass"
+        "img": "images/LFOD/PackSeasonPass.png",
+        "codes": "PackSeasonPass"
     },
     {
         "name": "Particles Pack",

@@ -9,8 +9,7 @@
                 "NormalSword",
                 "SuppliesBox",
                 "HumbleIndieBindle",
-                "Pickaxe",
-                "SeasonPass"
+                "Pickaxe"
             ],
             [
                 "PackParticles",
@@ -30,10 +29,11 @@
                 "PackDLCNPC",
                 "PackCutContent",
                 "PackNameChange",
-                "PackHighDefNextGen",
-                "PackIncreasedHP"
+                "PackSeasonPass",
+                "PackHighDefNextGen"
             ],
             [
+                "PackIncreasedHP",
                 "PackRemovedAds",
                 "PackBigSword",
                 "PackReallyBigSword",
