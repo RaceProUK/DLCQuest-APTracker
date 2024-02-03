@@ -11,8 +11,16 @@ Tracker:AddItems("items/settings.json")
 Tracker:AddLayouts("layouts/itemsDLC.json")
 Tracker:AddLayouts("layouts/itemsLFOD.json")
 Tracker:AddLayouts("layouts/settings.json")
-Tracker:AddLayouts("layouts/layout.json")
-Tracker:AddLayouts("layouts/broadcast.json")
+if Tracker.ActiveVariantUID == "dlc" then
+    Tracker:AddLayouts("layouts/layoutDLCQ.json")
+    Tracker:AddLayouts("layouts/broadcastDLCQ.json")
+elseif Tracker.ActiveVariantUID == "lfod" then
+    Tracker:AddLayouts("layouts/layoutLFOD.json")
+    Tracker:AddLayouts("layouts/broadcastLFOD.json")
+else
+    Tracker:AddLayouts("layouts/layout.json")
+    Tracker:AddLayouts("layouts/broadcast.json")
+end
 Tracker:AddLayouts("layouts/tracker.json")
 
 if PopVersion and PopVersion >= "0.18.0" then

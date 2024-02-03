@@ -5,20 +5,11 @@
         "content": [
             {
                 "type": "group",
-                "header": "Items - DLC Quest",
+                "header": "Items",
                 "dock": "top",
                 "content": {
                     "type": "layout",
                     "key": "ItemsDLC"
-                }
-            },
-            {
-                "type": "group",
-                "header": "Items - Live Freemium Or Die",
-                "dock": "top",
-                "content": {
-                    "type": "layout",
-                    "key": "ItemsLFOD"
                 }
             },
             {

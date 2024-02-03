@@ -13,7 +13,7 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "DLC Quest",
+                            "header": "Items - DLC Quest",
                             "dock": "left",
                             "content": {
                                 "type": "layout",
@@ -22,7 +22,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Live Freemium Or Die",
+                            "header": "Items - Live Freemium Or Die",
                             "dock": "left",
                             "content": {
                                 "type": "layout",

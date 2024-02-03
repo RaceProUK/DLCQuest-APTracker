@@ -1,0 +1,46 @@
+{
+    "item_tracker": {
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "ItemsDLC"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "content": {
+                                "type": "layout",
+                                "key": "Settings"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "header": "Map",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "DLCQMap"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
