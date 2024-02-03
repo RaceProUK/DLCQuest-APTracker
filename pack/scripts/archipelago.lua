@@ -48,10 +48,6 @@ function Reset(slotData)
             setting.AcquiredCount = 0
         end
     end
-    if slotData["item_shuffle"] then
-        local setting = Tracker:FindObjectForCode("ItemsShuffled")
-        setting.Active = slotData["item_shuffle"] ~= 0
-    end
     if slotData["death_link"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
         setting.Active = slotData["death_link"] ~= 0
