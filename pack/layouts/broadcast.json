@@ -1,0 +1,34 @@
+{
+    "broadcast_tracker": {
+        "type": "dock",
+        "background": "#212121",
+        "content": [
+            {
+                "type": "group",
+                "header": "DLC Quest",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "ItemsDLC"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Live Freemium Or Die",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "ItemsLFOD"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "Settings"
+                }
+            }
+        ]
+    }
+}
