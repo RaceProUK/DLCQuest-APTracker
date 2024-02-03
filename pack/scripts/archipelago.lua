@@ -18,15 +18,13 @@ function Reset(slotData)
     end
 
     --Locations
-    --for _, value in pairs(LocationMap) do
-    --    local area = value[1]
-    --    local section = value[2]
-    --    local address = "@" .. area .. "/" .. section
-    --    local location = Tracker:FindObjectForCode(address)
-    --    if location then
-    --        location.AvailableChestCount = location.ChestCount
-    --    end
-    --end
+    for _, name in pairs(LocationMap) do
+        local address = "@" .. name .. "/" .. name
+        local location = Tracker:FindObjectForCode(address)
+        if location then
+            location.AvailableChestCount = location.ChestCount
+        end
+    end
 
     --Settings
     if slotData == nil then
@@ -69,18 +67,16 @@ function ItemReceived(index, id, name, player)
 end
 
 function LocationChecked(id, name)
-    --local mapping = LocationMap[id]
-    --if not mapping then
-    --    return
-    --end
+    local name = LocationMap[id]
+    if not name then
+        return
+    end
 
-    --local area = mapping[1]
-    --local section = mapping[2]
-    --local address = "@" .. area .. "/" .. section
-    --local location = Tracker:FindObjectForCode(address)
-    --if location then
-    --    location.AvailableChestCount = location.AvailableChestCount - 1
-    --end
+    local address = "@" .. name .. "/" .. name
+    local location = Tracker:FindObjectForCode(address)
+    if location then
+        location.AvailableChestCount = location.AvailableChestCount - 1
+    end
 end
 
 Archipelago:AddClearHandler("Reset", Reset)

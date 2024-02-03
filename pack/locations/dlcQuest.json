@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Movement Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 100,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Movement Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Animation Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 200,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Animation Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Audio Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 300,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Audio Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Pause Menu Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 400,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pause Menu Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Time is Money Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 500,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Time is Money Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Double Jump Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 600,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Double Jump Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Pet Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 700,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pet Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sexy Outfits Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 800,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Sexy Outfits Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Top Hat Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 900,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Top Hat Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Map Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1000,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Map Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gun Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1100,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gun Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "The Zombie Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1200,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "The Zombie Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Night Map Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1300,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Night Map Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Psychological Warfare Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1400,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Psychological Warfare Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Armor for your Horse Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1500,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Armor for your Horse Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Finish the Fight Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1600,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Finish the Fight Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sword",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1700,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Sword",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Gun",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 1800,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gun",
+                "item_count": 1
+            }
+        ]
+    }
+]

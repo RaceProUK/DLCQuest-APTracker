@@ -1,5 +1,5 @@
---Tracker:AddLocations("locations/dlcQuest.json")
---Tracker:AddLocations("locations/liveFreemiumOrDie.json")
+Tracker:AddLocations("locations/dlcQuest.json")
+Tracker:AddLocations("locations/liveFreemiumOrDie.json")
 
 Tracker:AddMaps("maps/dlcQuest.json")
 Tracker:AddMaps("maps/liveFreemiumOrDie.json")

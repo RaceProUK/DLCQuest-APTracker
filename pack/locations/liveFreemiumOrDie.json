@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Particles Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 100,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Particles Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Day One Patch Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 200,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Day One Patch Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Checkpoint Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 300,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Checkpoint Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Incredibly Important Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 400,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Incredibly Important Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Wall Jump Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 500,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Wall Jump Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Health Bar Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 600,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Health Bar Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Parallax Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 700,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Parallax Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Harmless Plants Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 800,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Harmless Plants Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Death of Comedy Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 900,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Death of Comedy Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Canadian Dialog Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1000,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Canadian Dialog Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "DLC NPC Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1100,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "DLC NPC Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Cut Content Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1200,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Cut Content Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Name Change Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1300,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Name Change Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Season Pass",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1400,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Season Pass",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "High Definition Next Gen Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1500,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "High Definition Next Gen Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Increased HP Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1600,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Increased HP Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Remove Ads Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1700,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Remove Ads Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Big Sword Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1800,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Big Sword Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Really Big Sword Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 1900,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Really Big Sword Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Unfathomable Sword Pack",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 2000,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Unfathomable Sword Pack",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Pickaxe",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 2100,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pickaxe",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Wooden Sword",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 2200,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Wooden Sword",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Box of Various Supplies",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 2300,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Box of Various Supplies",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Humble Indie Bindle",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 2400,
+                "y": 100,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Humble Indie Bindle",
+                "item_count": 1
+            }
+        ]
+    }
+]
