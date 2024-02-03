@@ -7,14 +7,14 @@
             "content": [
                 {
                     "type": "dock",
-                    "dock": "left",
+                    "dock": "bottom",
                     "v_alignment": "stretch",
                     "margin": "0,0,0,0",
                     "content": [
                         {
                             "type": "group",
                             "header": "DLC Quest",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "ItemsDLC"
@@ -23,7 +23,7 @@
                         {
                             "type": "group",
                             "header": "Live Freemium Or Die",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
                                 "key": "ItemsLFOD"
@@ -40,15 +40,24 @@
                     ]
                 },
                 {
-                    "type": "dock",
-                    "content": [
+                    "type": "tabbed",
+                    "tabs": [
                         {
-                            "type": "group",
-                            "header": "Maps",
-                            "margin": "0,0,0,0",
+                            "title": "DLC Quest",
                             "content": {
                                 "type": "map",
-                                "maps": []
+                                "maps": [
+                                    "DLCQMap"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Live Freemium Or Die",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "LFODMap"
+                                ]
                             }
                         }
                     ]

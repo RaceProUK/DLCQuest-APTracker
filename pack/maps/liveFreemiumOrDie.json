@@ -1,0 +1,8 @@
+[
+    {
+        "name": "LFODMap",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/LFOD/Map.png"
+    }
+]
