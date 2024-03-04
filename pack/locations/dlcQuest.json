@@ -1,13 +1,13 @@
 [
     {
-        "name": "Movement Pack",
+        "name": "Shopkeep",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 100,
-                "y": 100,
+                "x": 4024,
+                "y": 1280,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -16,63 +16,15 @@
             {
                 "name": "Movement Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Animation Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "DLCQMap",
-                "x": 200,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Animation Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Audio Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "DLCQMap",
-                "x": 300,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Audio Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Pause Menu Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "DLCQMap",
-                "x": 400,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Pause Menu Pack",
                 "item_count": 1
@@ -80,14 +32,14 @@
         ]
     },
     {
-        "name": "Time is Money Pack",
+        "name": "Grindstone",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 500,
-                "y": 100,
+                "x": 2968,
+                "y": 1232,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -96,18 +48,22 @@
             {
                 "name": "Time is Money Pack",
                 "item_count": 1
+            },
+            {
+                "name": "Sword",
+                "item_count": 1
             }
         ]
     },
     {
-        "name": "Double Jump Pack",
+        "name": "Double Jump Platforms",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 600,
-                "y": 100,
+                "x": 4872,
+                "y": 1144,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -120,14 +76,14 @@
         ]
     },
     {
-        "name": "Pet Pack",
+        "name": "Westernmost Cave",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 700,
-                "y": 100,
+                "x": 120,
+                "y": 1448,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -140,14 +96,14 @@
         ]
     },
     {
-        "name": "Sexy Outfits Pack",
+        "name": "Sexy Outfits Alcove",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 800,
-                "y": 100,
+                "x": 1560,
+                "y": 2140,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -160,14 +116,14 @@
         ]
     },
     {
-        "name": "Top Hat Pack",
+        "name": "Top Hat Platform",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 900,
-                "y": 100,
+                "x": 1064,
+                "y": 584,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -180,14 +136,14 @@
         ]
     },
     {
-        "name": "Map Pack",
+        "name": "Area Transition (West)",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1000,
-                "y": 100,
+                "x": 960,
+                "y": 2812,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -200,14 +156,14 @@
         ]
     },
     {
-        "name": "Gun Pack",
+        "name": "Troll",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1100,
-                "y": 100,
+                "x": 4046,
+                "y": 3012,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -220,14 +176,14 @@
         ]
     },
     {
-        "name": "The Zombie Pack",
+        "name": "Zombie Alcove",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1200,
-                "y": 100,
+                "x": 2840,
+                "y": 2780,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -240,14 +196,14 @@
         ]
     },
     {
-        "name": "Night Map Pack",
+        "name": "Area Transition (East)",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1300,
-                "y": 100,
+                "x": 1496,
+                "y": 2812,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -260,14 +216,14 @@
         ]
     },
     {
-        "name": "Psychological Warfare Pack",
+        "name": "Random Encounter",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1400,
-                "y": 100,
+                "x": 1152,
+                "y": 1216,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -286,8 +242,8 @@
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1500,
-                "y": 100,
+                "x": 3784,
+                "y": 1144,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -300,14 +256,14 @@
         ]
     },
     {
-        "name": "Finish the Fight Pack",
+        "name": "Easternmost Tunnel",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1600,
-                "y": 100,
+                "x": 4400,
+                "y": 3036,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -320,34 +276,14 @@
         ]
     },
     {
-        "name": "Sword",
+        "name": "Gunsmith",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "DLCQMap",
-                "x": 1700,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
-            {
-                "name": "Sword",
-                "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Gun",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "DLCQMap",
-                "x": 1800,
-                "y": 100,
+                "x": 694,
+                "y": 2860,
                 "size": 48,
                 "border_thickness": 1
             }
