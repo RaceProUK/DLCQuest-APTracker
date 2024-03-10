@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.2.0",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.2.0/dlcquest_rando_raceprouk.zip",
+            "sha256": "ebcc154aa8084389ee62fcde855f4489563ce0f6215748542a39aa76637dfae5",
+            "changelog": [
+                "All location checks are now in their correct map locations",
+                "Progression logic implemented",
+                "PopTracker's automated package updating is now supported"
+            ]
+        },
+        {
             "package_version": "0.1.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.1.0/dlcquest_rando_raceprouk.zip",
             "sha256": "35c751dc481c54556d56b374bae1f9aadd6d4097f465dc784d972f8101250958",
