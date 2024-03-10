@@ -47,11 +47,17 @@
         "sections": [
             {
                 "name": "Time is Money Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMovement"
+                ]
             },
             {
                 "name": "Sword",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMovement"
+                ]
             }
         ]
     },
@@ -71,7 +77,10 @@
         "sections": [
             {
                 "name": "Double Jump Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "Sword"
+                ]
             }
         ]
     },
@@ -91,7 +100,10 @@
         "sections": [
             {
                 "name": "Pet Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
             }
         ]
     },
@@ -111,7 +123,10 @@
         "sections": [
             {
                 "name": "Sexy Outfits Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
             }
         ]
     },
@@ -131,7 +146,10 @@
         "sections": [
             {
                 "name": "Top Hat Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
             }
         ]
     },
@@ -151,7 +169,10 @@
         "sections": [
             {
                 "name": "Map Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "Sword"
+                ]
             }
         ]
     },
@@ -171,7 +192,10 @@
         "sections": [
             {
                 "name": "Gun Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMap"
+                ]
             }
         ]
     },
@@ -191,7 +215,10 @@
         "sections": [
             {
                 "name": "The Zombie Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMap"
+                ]
             }
         ]
     },
@@ -211,7 +238,10 @@
         "sections": [
             {
                 "name": "Night Map Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMap"
+                ]
             }
         ]
     },
@@ -231,7 +261,10 @@
         "sections": [
             {
                 "name": "Psychological Warfare Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMovement"
+                ]
             }
         ]
     },
@@ -251,7 +284,10 @@
         "sections": [
             {
                 "name": "Armor for your Horse Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackMovement"
+                ]
             }
         ]
     },
@@ -271,7 +307,10 @@
         "sections": [
             {
                 "name": "Finish the Fight Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "Gun"
+                ]
             }
         ]
     },
@@ -291,7 +330,10 @@
         "sections": [
             {
                 "name": "Gun",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackGun"
+                ]
             }
         ]
     }

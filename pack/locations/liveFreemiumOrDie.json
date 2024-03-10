@@ -79,7 +79,10 @@
         "sections": [
             {
                 "name": "Wall Jump Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalSword"
+                ]
             }
         ]
     },
@@ -99,7 +102,10 @@
         "sections": [
             {
                 "name": "Health Bar Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalSword"
+                ]
             }
         ]
     },
@@ -119,7 +125,10 @@
         "sections": [
             {
                 "name": "Parallax Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalSword"
+                ]
             }
         ]
     },
@@ -139,7 +148,10 @@
         "sections": [
             {
                 "name": "Harmless Plants Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -159,7 +171,10 @@
         "sections": [
             {
                 "name": "Death of Comedy Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -179,7 +194,10 @@
         "sections": [
             {
                 "name": "Canadian Dialog Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -199,7 +217,10 @@
         "sections": [
             {
                 "name": "DLC NPC Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -219,7 +240,10 @@
         "sections": [
             {
                 "name": "Cut Content Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -239,7 +263,10 @@
         "sections": [
             {
                 "name": "Name Change Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -259,7 +286,10 @@
         "sections": [
             {
                 "name": "Season Pass",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "Pickaxe"
+                ]
             }
         ]
     },
@@ -279,7 +309,10 @@
         "sections": [
             {
                 "name": "High Definition Next Gen Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "Pickaxe"
+                ]
             }
         ]
     },
@@ -299,7 +332,10 @@
         "sections": [
             {
                 "name": "Increased HP Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackWallJump"
+                ]
             }
         ]
     },
@@ -319,7 +355,10 @@
         "sections": [
             {
                 "name": "Remove Ads Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackSeasonPass"
+                ]
             }
         ]
     },
@@ -339,15 +378,24 @@
         "sections": [
             {
                 "name": "Big Sword Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "SeasonPass"
+                ]
             },
             {
                 "name": "Really Big Sword Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackBigSword"
+                ]
             },
             {
                 "name": "Unfathomable Sword Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackReallyBigSword"
+                ]
             }
         ]
     },
@@ -367,7 +415,10 @@
         "sections": [
             {
                 "name": "Pickaxe",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "HumbleIndieBindle"
+                ]
             }
         ]
     },
@@ -387,7 +438,10 @@
         "sections": [
             {
                 "name": "Wooden Sword",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackIncrediblyImportant"
+                ]
             }
         ]
     },
@@ -407,7 +461,10 @@
         "sections": [
             {
                 "name": "Box of Various Supplies",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "PackNameChange"
+                ]
             }
         ]
     },
@@ -427,7 +484,10 @@
         "sections": [
             {
                 "name": "Humble Indie Bindle",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "SuppliesBox"
+                ]
             }
         ]
     }
