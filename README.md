@@ -12,4 +12,4 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 ## Known Issues
 
-- No map 😢
+- Basic campaign sheep are not tracked
