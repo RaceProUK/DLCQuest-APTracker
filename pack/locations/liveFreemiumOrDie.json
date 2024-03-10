@@ -6,8 +6,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 100,
-                "y": 100,
+                "x": 6664,
+                "y": 1112,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -20,14 +20,14 @@
         ]
     },
     {
-        "name": "Day One Patch Pack",
+        "name": "Day One Patch & Checkpoints",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 200,
-                "y": 100,
+                "x": 4633,
+                "y": 1814,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -36,23 +36,7 @@
             {
                 "name": "Day One Patch Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Checkpoint Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "LFODMap",
-                "x": 300,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Checkpoint Pack",
                 "item_count": 1
@@ -66,8 +50,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 400,
-                "y": 100,
+                "x": 6507,
+                "y": 1383,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -86,8 +70,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 500,
-                "y": 100,
+                "x": 7080,
+                "y": 1680,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -106,8 +90,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 600,
-                "y": 100,
+                "x": 5450,
+                "y": 2390,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -126,8 +110,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 700,
-                "y": 100,
+                "x": 6280,
+                "y": 2152,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -146,8 +130,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 800,
-                "y": 100,
+                "x": 915,
+                "y": 4410,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -166,8 +150,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 900,
-                "y": 100,
+                "x": 3144,
+                "y": 344,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -186,8 +170,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1000,
-                "y": 100,
+                "x": 3800,
+                "y": 680,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -206,8 +190,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1100,
-                "y": 100,
+                "x": 7000,
+                "y": 560,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -226,8 +210,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1200,
-                "y": 100,
+                "x": 5150,
+                "y": 625,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -246,8 +230,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1300,
-                "y": 100,
+                "x": 7528,
+                "y": 1088,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -266,8 +250,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1400,
-                "y": 100,
+                "x": 2970,
+                "y": 4220,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -286,8 +270,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1500,
-                "y": 100,
+                "x": 920,
+                "y": 3590,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -306,8 +290,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1600,
-                "y": 100,
+                "x": 7624,
+                "y": 2024,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -326,8 +310,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1700,
-                "y": 100,
+                "x": 4824,
+                "y": 4352,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -340,14 +324,14 @@
         ]
     },
     {
-        "name": "Big Sword Pack",
+        "name": "Final Boss",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1800,
-                "y": 100,
+                "x": 7974,
+                "y": 4502,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -356,43 +340,11 @@
             {
                 "name": "Big Sword Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Really Big Sword Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "LFODMap",
-                "x": 1900,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Really Big Sword Pack",
                 "item_count": 1
-            }
-        ]
-    },
-    {
-        "name": "Unfathomable Sword Pack",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
-        "map_locations": [
-            {
-                "map": "LFODMap",
-                "x": 2000,
-                "y": 100,
-                "size": 48,
-                "border_thickness": 1
-            }
-        ],
-        "sections": [
+            },
             {
                 "name": "Unfathomable Sword Pack",
                 "item_count": 1
@@ -406,8 +358,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2100,
-                "y": 100,
+                "x": 6936,
+                "y": 2568,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -426,8 +378,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2200,
-                "y": 100,
+                "x": 5930,
+                "y": 1250,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -446,8 +398,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2300,
-                "y": 100,
+                "x": 1624,
+                "y": 680,
                 "size": 48,
                 "border_thickness": 1
             }
@@ -466,8 +418,8 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2400,
-                "y": 100,
+                "x": 2330,
+                "y": 1030,
                 "size": 48,
                 "border_thickness": 1
             }
