@@ -12,4 +12,5 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 ## Known Issues
 
-- Basic campaign sheep are not tracked
+- Basic campaign:
+  - Sheep are not tracked
