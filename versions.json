@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.1.0/dlcquest_rando_raceprouk.zip",
+            "sha256": "35c751dc481c54556d56b374bae1f9aadd6d4097f465dc784d972f8101250958",
+            "changelog": [
+                "Initial release"
+            ]
+        }
+    ]
+}
