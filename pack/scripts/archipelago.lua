@@ -19,7 +19,9 @@ function Reset(slotData)
 
     --Locations
     for _, name in pairs(LocationMap) do
-        local address = "@" .. name .. "/" .. name
+        local area = value[1]
+        local section = value[2]
+        local address = "@" .. area .. "/" .. section
         local location = Tracker:FindObjectForCode(address)
         if location then
             location.AvailableChestCount = location.ChestCount
@@ -79,12 +81,14 @@ function ItemReceived(index, id, name, player)
 end
 
 function LocationChecked(id, name)
-    local name = LocationMap[id]
-    if not name then
+    local mapping = LocationMap[id]
+    if not mapping then
         return
     end
 
-    local address = "@" .. name .. "/" .. name
+    local area = mapping[1]
+    local section = mapping[2]
+    local address = "@" .. area .. "/" .. section
     local location = Tracker:FindObjectForCode(address)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
