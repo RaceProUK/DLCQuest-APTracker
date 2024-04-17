@@ -60,9 +60,21 @@ function ItemReceived(index, id, name, player)
     end
 
     local itemCode = ItemMap[id]
-    local item = Tracker:FindObjectForCode(itemCode)
-    if item then
-        item.Active = true
+    if itemCode == "DLCQProgWeapon" then
+        local sword = Tracker:FindObjectForCode("Sword")
+        local gun = Tracker:FindObjectForCode("Gun")
+        gun.Active = sword.Active
+        sword.Active = true
+    elseif itemCode == "LFODProgWeapon" then
+        local sword = Tracker:FindObjectForCode("NormalSword")
+        local pickaxe = Tracker:FindObjectForCode("Pickaxe")
+        pickaxe.Active = sword.Active
+        sword.Active = true
+    else
+        local item = Tracker:FindObjectForCode(itemCode)
+        if item then
+            item.Active = true
+        end
     end
 end
 

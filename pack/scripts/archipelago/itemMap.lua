@@ -45,5 +45,7 @@ ItemMap = {
     [120043] = "LFODCoinBundle",
     [120044] = "ZombieSheep",
     [120045] = "TemporarySpike",
-    [120046] = "LoadingScreen"
+    [120046] = "LoadingScreen",
+    [120048] = "DLCQProgWeapon", --Replaces Sword and Gun
+    [120049] = "LFODProgWeapon"  --Replaces NormalSword and Pickaxe
 }
