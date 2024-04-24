@@ -62,7 +62,10 @@ function ItemReceived(index, id, name, player)
     end
 
     local itemCode = ItemMap[id]
-    if itemCode == "DLCQProgWeapon" then
+    if itemCode == "DLCQCoinBundle" or itemCode == "LFODCoinBundle" then
+        --Coin bundles can be ignored for now
+        return
+    elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
         gun.Active = sword.Active
