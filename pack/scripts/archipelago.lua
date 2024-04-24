@@ -18,7 +18,7 @@ function Reset(slotData)
     end
 
     --Locations
-    for _, name in pairs(LocationMap) do
+    for _, value in pairs(LocationMap) do
         local area = value[1]
         local section = value[2]
         local address = "@" .. area .. "/" .. section
@@ -31,6 +31,9 @@ function Reset(slotData)
     --Settings
     if slotData == nil then
         return
+    end
+    for key, _ in pairs(slotData) do
+        print(key)
     end
     if slotData["campaign"] then
         local setting = Tracker:FindObjectForCode("Campaign")
