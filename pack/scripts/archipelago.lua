@@ -32,9 +32,6 @@ function Reset(slotData)
     if slotData == nil then
         return
     end
-    for key, _ in pairs(slotData) do
-        print(key)
-    end
     if slotData["campaign"] then
         local setting = Tracker:FindObjectForCode("Campaign")
         setting.CurrentStage = tonumber(slotData["campaign"])
