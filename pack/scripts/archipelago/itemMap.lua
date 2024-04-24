@@ -47,5 +47,7 @@ ItemMap = {
     [120045] = "TemporarySpike",
     [120046] = "LoadingScreen",
     [120048] = "DLCQProgWeapon", --Replaces Sword and Gun
-    [120049] = "LFODProgWeapon"  --Replaces NormalSword and Pickaxe
+    [120049] = "LFODProgWeapon", --Replaces NormalSword and Pickaxe
+    [120050] = "DLCQCoinPiece",
+    [120051] = "LFODCoinPiece"
 }

@@ -65,6 +65,12 @@ function ItemReceived(index, id, name, player)
     if itemCode == "DLCQCoinBundle" or itemCode == "LFODCoinBundle" then
         --Coin bundles can be ignored for now
         return
+    elseif itemCode == "DLCQCoinPiece" or itemCode == "LFODCoinPiece" then
+        --So can coin pieces
+        return
+    elseif itemCode == "LoadingScreen" or itemCode == "TemporarySpike" or itemCode == "ZombieSheep" then
+        --And traps
+        return
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
