@@ -81,6 +81,20 @@
                 "access_rules": [
                     "Sword"
                 ]
+            },
+            {
+                "name": "Double Jump Alcove Sheep",
+                "item_count": 1,
+                "access_rules": [
+                    "Sword,PackDoubleJump"
+                ]
+            },
+            {
+                "name": "Double Jump Floating Sheep",
+                "item_count": 1,
+                "access_rules": [
+                    "Sword,PackDoubleJump"
+                ]
             }
         ]
     },
@@ -100,6 +114,13 @@
         "sections": [
             {
                 "name": "Pet Pack",
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
+            },
+            {
+                "name": "West Cave Sheep",
                 "item_count": 1,
                 "access_rules": [
                     "PackDoubleJump"
@@ -127,6 +148,13 @@
                 "access_rules": [
                     "PackDoubleJump"
                 ]
+            },
+            {
+                "name": "Sexy Outfits Sheep",
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
             }
         ]
     },
@@ -146,6 +174,13 @@
         "sections": [
             {
                 "name": "Top Hat Pack",
+                "item_count": 1,
+                "access_rules": [
+                    "PackDoubleJump"
+                ]
+            },
+            {
+                "name": "Top Hat Sheep",
                 "item_count": 1,
                 "access_rules": [
                     "PackDoubleJump"
@@ -334,6 +369,134 @@
                 "access_rules": [
                     "PackGun"
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Forest",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 3200,
+                "y": 2236,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Forest High Sheep",
+                "item_count": 1
+            },
+            {
+                "name": "Forest Low Sheep",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Between Trees",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 5136,
+                "y": 1232,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Between Trees Sheep",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hole in the Wall",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 5024,
+                "y": 1552,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hole in the Wall Sheep",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Shepherd",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 2592,
+                "y": 1456,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Shepherd Sheep",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "North West",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 576,
+                "y": 568,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "North West Ceiling Sheep",
+                "item_count": 1
+            },
+            {
+                "name": "North West Alcove Sheep",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Cutscene Platform",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 3440,
+                "y": 848,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Cutscene Sheep",
+                "item_count": 1
             }
         ]
     }
