@@ -95,6 +95,8 @@
             {
                 "name": "Double Jump Alcove Sheep",
                 "item_count": 1,
+                "chest_unopened_img": "images/Sheep.png",
+                "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
                     "PackDoubleJump"
                 ]
@@ -102,6 +104,8 @@
             {
                 "name": "Double Jump Floating Sheep",
                 "item_count": 1,
+                "chest_unopened_img": "images/Sheep.png",
+                "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
                     "PackDoubleJump"
                 ]
@@ -135,6 +139,8 @@
             {
                 "name": "West Cave Sheep",
                 "item_count": 1,
+                "chest_unopened_img": "images/Sheep.png",
+                "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
                     "Sword",
                     "Gun"
@@ -166,7 +172,9 @@
             },
             {
                 "name": "Sexy Outfits Sheep",
-                "item_count": 1
+                "item_count": 1,
+                "chest_unopened_img": "images/Sheep.png",
+                "chest_opened_img": "images/SheepDead.png"
             }
         ]
     },
@@ -194,6 +202,8 @@
             {
                 "name": "Top Hat Sheep",
                 "item_count": 1,
+                "chest_unopened_img": "images/Sheep.png",
+                "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
                     "Sword",
                     "Gun"
@@ -391,8 +401,8 @@
     },
     {
         "name": "Forest",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement,PackDoubleJump,PackMap,Sword",
             "PackMovement,PackDoubleJump,PackMap,Gun"
@@ -419,8 +429,8 @@
     },
     {
         "name": "Between Trees",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement,Sword",
             "PackMovement,Gun"
@@ -443,8 +453,8 @@
     },
     {
         "name": "Hole in the Wall",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement,Sword",
             "PackMovement,Gun"
@@ -467,8 +477,8 @@
     },
     {
         "name": "Shepherd",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement"
         ],
@@ -494,8 +504,8 @@
     },
     {
         "name": "North West",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement,PackPsychologicalWarfare,PackDoubleJump"
         ],
@@ -529,8 +539,8 @@
     },
     {
         "name": "Cutscene Platform",
-        "chest_unopened_img": "images/Pack.png",
-        "chest_opened_img": "images/PackGrey.png",
+        "chest_unopened_img": "images/Sheep.png",
+        "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
             "PackMovement,PackDoubleJump"
         ],
