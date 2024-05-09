@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.3.0/dlcquest_rando_raceprouk.zip",
+            "sha256": "1bc97be312c7b7dcbf599ebc522a0a6b354e39ba64142abae8ca0c5233cb0caf",
+            "changelog": [
+                "Suppressed unnecessary console warnings",
+                "Added support for progressive weapons",
+                "Added all sheep in Basic campaign as location checks",
+                "Added all four special location checks to Live Freemium or Die",
+                "Rewrote logic"
+            ]
+        },
+        {
             "package_version": "0.2.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.2.0/dlcquest_rando_raceprouk.zip",
             "sha256": "ebcc154aa8084389ee62fcde855f4489563ce0f6215748542a39aa76637dfae5",

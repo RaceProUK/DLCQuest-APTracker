@@ -12,9 +12,5 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 ## Known Issues
 
-- DLCQ Campaign:
-  - Sheep are not tracked
-- LFOD Campaign:
-  - Special locations are not tracked
 - Both campaigns:
   - Non-shuffled items cannot be tracked (game doesn't send checks)
