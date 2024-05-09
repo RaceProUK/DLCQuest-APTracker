@@ -150,13 +150,13 @@
                 "name": "Harmless Plants Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "NormalSword,PackWallJump"
                 ]
             }
         ]
     },
     {
-        "name": "Comedian",
+        "name": "Death of Comedy Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
@@ -173,14 +173,30 @@
                 "name": "Death of Comedy Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "NormalSword,PackWallJump"
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Comedian",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 5780,
+                "y": 1520,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
             {
                 "name": "I Get That Reference!",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "PackDeathOfComedy"
                 ]
             }
         ]
@@ -203,7 +219,7 @@
                 "name": "Canadian Dialog Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "NormalSword,PackWallJump"
                 ]
             }
         ]
@@ -226,7 +242,7 @@
                 "name": "DLC NPC Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "NormalSword,PackWallJump"
                 ]
             }
         ]
@@ -247,10 +263,7 @@
         "sections": [
             {
                 "name": "Cut Content Pack",
-                "item_count": 1,
-                "access_rules": [
-                    "PackWallJump"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -272,7 +285,7 @@
                 "name": "Name Change Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "NormalSword,PackWallJump"
                 ]
             }
         ]
@@ -295,7 +308,7 @@
                 "name": "Season Pass",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe"
+                    "Pickaxe,PackWallJump,PackNameChange"
                 ]
             }
         ]
@@ -318,7 +331,7 @@
                 "name": "High Definition Next Gen Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe"
+                    "Pickaxe,PackWallJump,PackNameChange"
                 ]
             }
         ]
@@ -341,7 +354,7 @@
                 "name": "Increased HP Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackWallJump"
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -364,7 +377,7 @@
                 "name": "Not Exactly Noble",
                 "item_count": 1,
                 "access_rules": [
-                    "PackSeasonPass"
+                    "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass"
                 ]
             }
         ]
@@ -387,7 +400,7 @@
                 "name": "Remove Ads Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackSeasonPass"
+                    "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass"
                 ]
             }
         ]
@@ -396,6 +409,9 @@
         "name": "Final Boss",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -408,24 +424,15 @@
         "sections": [
             {
                 "name": "Big Sword Pack",
-                "item_count": 1,
-                "access_rules": [
-                    "SeasonPass"
-                ]
+                "item_count": 1
             },
             {
                 "name": "Really Big Sword Pack",
-                "item_count": 1,
-                "access_rules": [
-                    "PackBigSword"
-                ]
+                "item_count": 1
             },
             {
                 "name": "Unfathomable Sword Pack",
-                "item_count": 1,
-                "access_rules": [
-                    "PackReallyBigSword"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -447,7 +454,7 @@
                 "name": "Pickaxe",
                 "item_count": 1,
                 "access_rules": [
-                    "HumbleIndieBindle"
+                    "NormalSword,HumbleIndieBindle"
                 ]
             }
         ]
@@ -493,7 +500,7 @@
                 "name": "Box of Various Supplies",
                 "item_count": 1,
                 "access_rules": [
-                    "PackNameChange"
+                    "NormalSword,PackWallJump,PackCutContent,PackNameChange"
                 ]
             }
         ]
@@ -516,13 +523,36 @@
                 "name": "Humble Indie Bindle",
                 "item_count": 1,
                 "access_rules": [
-                    "SuppliesBox"
+                    "NormalSword,PackWallJump,PackCutContent,SuppliesBox"
                 ]
             }
         ]
     },
     {
-        "name": "Special",
+        "name": "DLC NPC",
+        "chest_unopened_img": "images/Pack.png",
+        "chest_opened_img": "images/PackGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 5000,
+                "y": 1320,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Story is Important",
+                "item_count": 1,
+                "access_rules": [
+                    "PackDLCNPC"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cheats",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "map_locations": [
@@ -535,10 +565,6 @@
             }
         ],
         "sections": [
-            {
-                "name": "Story is Important",
-                "item_count": 1
-            },
             {
                 "name": "Nice Try",
                 "item_count": 1

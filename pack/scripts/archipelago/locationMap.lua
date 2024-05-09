@@ -23,7 +23,7 @@ LocationMap = {
     [120021] = { "Health Bar Pack", "Health Bar Pack" },
     [120022] = { "Parallax Pack", "Parallax Pack" },
     [120023] = { "Harmless Plants Pack", "Harmless Plants Pack" },
-    [120024] = { "Comedian", "Death of Comedy Pack" },
+    [120024] = { "Death of Comedy Pack", "Death of Comedy Pack" },
     [120025] = { "Canadian Dialog Pack", "Canadian Dialog Pack" },
     [120026] = { "DLC NPC Pack", "DLC NPC Pack" },
     [120027] = { "Cut Content Pack", "Cut Content Pack" },
@@ -57,7 +57,7 @@ LocationMap = {
     [120054] = { "Cutscene Platform", "Cutscene Sheep" },
 
     [120055] = { "Spike Pit", "Not Exactly Noble" },
-    [120056] = { "Special", "Story is Important" },
-    [120057] = { "Special", "Nice Try" },
+    [120056] = { "DLC NPC", "Story is Important" },
+    [120057] = { "Cheats", "Nice Try" },
     [120058] = { "Comedian", "I Get That Reference!" }
 }
