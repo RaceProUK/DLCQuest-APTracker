@@ -270,7 +270,11 @@
         "sections": [
             {
                 "name": "Cut Content Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalSword,PackWallJump,PackHarmlessPlants",
+                    "Pickaxe,PackWallJump,PackHarmlessPlants"
+                ]
             }
         ]
     },
