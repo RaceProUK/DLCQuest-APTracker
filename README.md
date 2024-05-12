@@ -14,5 +14,3 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 - Both campaigns:
   - Non-shuffled items cannot be tracked (game doesn't send checks)
-- DLC Quest:
-  - Logic does not yet allow for Double Jump Glitch

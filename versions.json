@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.3.1/dlcquest_rando_raceprouk.zip",
+            "sha256": "4ed309aa8b8dddd873e7a7dd2ae2dd8e086d80f840e18c538e0c4e4e7c30ade5",
+            "changelog": [
+                "Added logic support for Double Jump Glitch and optional Time Is Money Pack in Basic campaign",
+                "Allow Pickaxe instead of Sword where possible in Live Freemium or Die",
+                "Fixed logic for Cut Content Pack in Live Freemium or Die"
+            ]
+        },
+        {
             "package_version": "0.3.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.3.0/dlcquest_rando_raceprouk.zip",
             "sha256": "1bc97be312c7b7dcbf599ebc522a0a6b354e39ba64142abae8ca0c5233cb0caf",
