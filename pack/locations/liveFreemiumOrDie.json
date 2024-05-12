@@ -81,7 +81,8 @@
                 "name": "Wall Jump Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword"
+                    "NormalSword",
+                    "Pickaxe"
                 ]
             }
         ]
@@ -104,7 +105,8 @@
                 "name": "Health Bar Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword"
+                    "NormalSword",
+                    "Pickaxe"
                 ]
             }
         ]
@@ -127,7 +129,8 @@
                 "name": "Parallax Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword"
+                    "NormalSword",
+                    "Pickaxe"
                 ]
             }
         ]
@@ -150,7 +153,8 @@
                 "name": "Harmless Plants Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump"
+                    "NormalSword,PackWallJump",
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -173,7 +177,8 @@
                 "name": "Death of Comedy Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump"
+                    "NormalSword,PackWallJump",
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -219,7 +224,8 @@
                 "name": "Canadian Dialog Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump"
+                    "NormalSword,PackWallJump",
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -242,7 +248,8 @@
                 "name": "DLC NPC Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump"
+                    "NormalSword,PackWallJump",
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -285,7 +292,8 @@
                 "name": "Name Change Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump"
+                    "NormalSword,PackWallJump",
+                    "Pickaxe,PackWallJump"
                 ]
             }
         ]
@@ -454,7 +462,8 @@
                 "name": "Pickaxe",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,HumbleIndieBindle"
+                    "NormalSword,HumbleIndieBindle",
+                    "Pickaxe,HumbleIndieBindle"
                 ]
             }
         ]
@@ -500,7 +509,8 @@
                 "name": "Box of Various Supplies",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,PackCutContent,PackNameChange"
+                    "NormalSword,PackWallJump,PackCutContent,PackNameChange",
+                    "Pickaxe,PackWallJump,PackCutContent,PackNameChange"
                 ]
             }
         ]
@@ -523,7 +533,8 @@
                 "name": "Humble Indie Bindle",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,PackCutContent,SuppliesBox"
+                    "NormalSword,PackWallJump,PackCutContent,SuppliesBox",
+                    "Pickaxe,PackWallJump,PackCutContent,SuppliesBox"
                 ]
             }
         ]
