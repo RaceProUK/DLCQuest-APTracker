@@ -65,7 +65,7 @@
                 "name": "Sword",
                 "item_count": 1,
                 "access_rules": [
-                    "PackTimeIsMoney"
+                    "[PackTimeIsMoney]"
                 ]
             }
         ]
@@ -98,7 +98,7 @@
                 "chest_unopened_img": "images/Sheep.png",
                 "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
-                    "PackDoubleJump"
+                    "[PackDoubleJump]"
                 ]
             },
             {
@@ -107,7 +107,7 @@
                 "chest_unopened_img": "images/Sheep.png",
                 "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
-                    "PackDoubleJump"
+                    "[PackDoubleJump]"
                 ]
             }
         ]
@@ -133,7 +133,7 @@
                 "name": "Pet Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackDoubleJump"
+                    "[PackDoubleJump]"
                 ]
             },
             {
@@ -153,8 +153,8 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackDoubleJump,Sword",
-            "PackMovement,PackDoubleJump,Gun"
+            "PackMovement,[PackDoubleJump],Sword",
+            "PackMovement,[PackDoubleJump],Gun"
         ],
         "map_locations": [
             {
@@ -183,7 +183,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackPsychologicalWarfare,PackDoubleJump"
+            "PackMovement,PackPsychologicalWarfare,[PackDoubleJump]"
         ],
         "map_locations": [
             {
@@ -263,8 +263,8 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackDoubleJump,PackMap,Sword",
-            "PackMovement,PackDoubleJump,PackMap,Gun"
+            "PackMovement,[PackDoubleJump],PackMap,Sword",
+            "PackMovement,[PackDoubleJump],PackMap,Gun"
         ],
         "map_locations": [
             {
@@ -404,8 +404,8 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,PackDoubleJump,PackMap,Sword",
-            "PackMovement,PackDoubleJump,PackMap,Gun"
+            "PackMovement,[PackDoubleJump],PackMap,Sword",
+            "PackMovement,[PackDoubleJump],PackMap,Gun"
         ],
         "map_locations": [
             {
@@ -507,7 +507,7 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,PackPsychologicalWarfare,PackDoubleJump"
+            "PackMovement,PackPsychologicalWarfare,[PackDoubleJump]"
         ],
         "map_locations": [
             {
@@ -542,7 +542,7 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,PackDoubleJump"
+            "PackMovement,[PackDoubleJump]"
         ],
         "map_locations": [
             {
