@@ -468,6 +468,9 @@
                 "access_rules": [
                     "NormalSword,HumbleIndieBindle",
                     "Pickaxe,HumbleIndieBindle"
+                ],
+                "visibility_rules": [
+                    "ItemsShuffled"
                 ]
             }
         ]
@@ -491,6 +494,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "PackIncrediblyImportant"
+                ],
+                "visibility_rules": [
+                    "ItemsShuffled"
                 ]
             }
         ]
@@ -515,6 +521,9 @@
                 "access_rules": [
                     "NormalSword,PackWallJump,PackCutContent,PackNameChange",
                     "Pickaxe,PackWallJump,PackCutContent,PackNameChange"
+                ],
+                "visibility_rules": [
+                    "ItemsShuffled"
                 ]
             }
         ]
@@ -539,6 +548,9 @@
                 "access_rules": [
                     "NormalSword,PackWallJump,PackCutContent,SuppliesBox",
                     "Pickaxe,PackWallJump,PackCutContent,SuppliesBox"
+                ],
+                "visibility_rules": [
+                    "ItemsShuffled"
                 ]
             }
         ]

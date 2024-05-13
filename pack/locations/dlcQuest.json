@@ -66,6 +66,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "[PackTimeIsMoney]"
+                ],
+                "visibility_rules": [
+                    "ItemsShuffled"
                 ]
             }
         ]
@@ -395,7 +398,10 @@
         "sections": [
             {
                 "name": "Gun",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "ItemsShuffled"
+                ]
             }
         ]
     },
