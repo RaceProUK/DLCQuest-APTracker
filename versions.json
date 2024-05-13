@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.4.0",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.0/dlcquest_rando_raceprouk.zip",
+            "sha256": "f3d17e8bc7ae0a541d164ef8892dcf9b5cb5d0c1ff38350031fb347a1186a700",
+            "changelog": [
+                "Added Item Shuffler support",
+                "When items are shuffled, their vanilla locations are added as checks",
+                "When items are not shuffled, their vanilla locations are hidden"
+            ]
+        },
+        {
             "package_version": "0.3.1",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.3.1/dlcquest_rando_raceprouk.zip",
             "sha256": "4ed309aa8b8dddd873e7a7dd2ae2dd8e086d80f840e18c538e0c4e4e7c30ade5",

@@ -14,3 +14,4 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 - Both campaigns:
   - Non-shuffled items cannot be tracked (game doesn't send checks)
+  - Item Shuffler icons are low quality (I'm not an artist 😊)
