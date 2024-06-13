@@ -243,7 +243,8 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackFinishTheFight"
+            "PackMovement,PackMap,Sword",
+            "PackMovement,PackMap,Gun"
         ],
         "map_locations": [
             {
