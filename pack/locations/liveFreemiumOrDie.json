@@ -296,8 +296,8 @@
                 "name": "Name Change Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump",
-                    "Pickaxe,PackWallJump"
+                    "NormalSword,PackWallJump,PackHarmlessPlants",
+                    "Pickaxe,PackWallJump,PackHarmlessPlants"
                 ]
             }
         ]
