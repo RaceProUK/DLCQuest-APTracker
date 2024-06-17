@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "0.4.1",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.1/dlcquest_rando_raceprouk.zip",
+            "sha256": "20e043eb113ad1a23ed3f4b447e6d4020cab98ab0673ea38345d7069e5b4dbc2",
+            "changelog": [
+                "Fixed Troll Pack logic",
+                "Fixed Final Boss logic",
+                "Fixed Name Change Pack logic",
+                "Fixed Harmless Plants Pack logic"
+            ]
+        },
+        {
             "package_version": "0.4.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.0/dlcquest_rando_raceprouk.zip",
             "sha256": "f3d17e8bc7ae0a541d164ef8892dcf9b5cb5d0c1ff38350031fb347a1186a700",
