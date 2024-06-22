@@ -153,8 +153,8 @@
                 "name": "Harmless Plants Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,$HarmlessPlantsPackAccessible",
-                    "Pickaxe,PackWallJump,$HarmlessPlantsPackAccessible"
+                    "NormalSword,PackWallJump,$CanPassNameChangeGate",
+                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -320,7 +320,7 @@
                 "name": "Season Pass",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackNameChange"
+                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -343,7 +343,7 @@
                 "name": "High Definition Next Gen Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackNameChange"
+                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -389,7 +389,7 @@
                 "name": "Not Exactly Noble",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass"
+                    "Pickaxe,PackWallJump,PackSeasonPass,[PackCheckpoint],$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -412,7 +412,7 @@
                 "name": "Remove Ads Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass"
+                    "Pickaxe,PackWallJump,PackSeasonPass,$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -422,7 +422,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,PackNameChange,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword"
+            "Pickaxe,PackWallJump,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword,$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
