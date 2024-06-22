@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.4.2",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.2/dlcquest_rando_raceprouk.zip",
+            "sha256": "80c47f33fc2d275be11ef8e34e0c133dfb155a0d6e477ab8f5b6aa6e8bae2306",
+            "changelog": [
+                "Updated logic for all checks east of Harmless Plants Pack",
+                "Trimmed LFOD map to prevent rendering issues with older GPUs"
+            ]
+        },
+        {
             "package_version": "0.4.1",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.1/dlcquest_rando_raceprouk.zip",
             "sha256": "20e043eb113ad1a23ed3f4b447e6d4020cab98ab0673ea38345d7069e5b4dbc2",
