@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.4.3",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.3/dlcquest_rando_raceprouk.zip",
+            "sha256": "c8973a2a5a7ab25888e1e2caa6236b197cf74080973f66a50b2e4d434bbf1cab",
+            "changelog": [
+                "Fixed logic issues with progressive weapons"
+            ]
+        },
+        {
             "package_version": "0.4.2",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.4.2/dlcquest_rando_raceprouk.zip",
             "sha256": "80c47f33fc2d275be11ef8e34e0c133dfb155a0d6e477ab8f5b6aa6e8bae2306",
