@@ -2,9 +2,13 @@ ScriptHost:LoadScript("scripts/archipelago/itemMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
 
 CurrentIndex = -1
+DLCQHasProgSword = false
+LFODHasProgSword = false
 
 function Reset(slotData)
     CurrentIndex = -1
+    DLCQHasProgSword = false
+    LFODHasProgSword = false
 
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
@@ -78,13 +82,15 @@ function ItemReceived(index, id, name, player)
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
-        gun.Active = sword.Active
+        gun.Active = sword.Active and DLCQHasProgSword
         sword.Active = true
+        DLCQHasProgSword = true
     elseif itemCode == "LFODProgWeapon" then
         local sword = Tracker:FindObjectForCode("NormalSword")
         local pickaxe = Tracker:FindObjectForCode("Pickaxe")
-        pickaxe.Active = sword.Active
+        pickaxe.Active = sword.Active and LFODHasProgSword
         sword.Active = true
+        LFODHasProgSword = true
     else
         local item = Tracker:FindObjectForCode(itemCode)
         if item then
