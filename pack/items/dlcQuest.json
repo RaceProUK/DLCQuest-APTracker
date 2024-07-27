@@ -12,6 +12,15 @@
         "codes": "Gun"
     },
     {
+        "name": "Coin Bundles",
+        "type": "consumable",
+        "max_quantity": 0,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "img": "images/CoinBundle.png",
+        "codes": "DLCQCoinBundlesReceived"
+    },
+    {
         "name": "Movement Pack",
         "type": "toggle",
         "img": "images/DLC/PackMovement.png",

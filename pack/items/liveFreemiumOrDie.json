@@ -24,10 +24,13 @@
         "codes": "Pickaxe"
     },
     {
-        "name": "Season Pass",
-        "type": "toggle",
-        "img": "images/LFOD/PackSeasonPass.png",
-        "codes": "PackSeasonPass"
+        "name": "Coin Bundles",
+        "type": "consumable",
+        "max_quantity": 0,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "img": "images/CoinBundle.png",
+        "codes": "LFODCoinBundlesReceived"
     },
     {
         "name": "Particles Pack",
@@ -106,6 +109,12 @@
         "type": "toggle",
         "img": "images/LFOD/PackNameChange.png",
         "codes": "PackNameChange"
+    },
+    {
+        "name": "Season Pass",
+        "type": "toggle",
+        "img": "images/LFOD/PackSeasonPass.png",
+        "codes": "PackSeasonPass"
     },
     {
         "name": "High Definition Next Gen Pack",

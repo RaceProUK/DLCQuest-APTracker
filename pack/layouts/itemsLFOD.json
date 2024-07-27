@@ -9,7 +9,8 @@
                 "NormalSword",
                 "SuppliesBox",
                 "HumbleIndieBindle",
-                "Pickaxe"
+                "Pickaxe",
+                "LFODCoinBundlesReceived"
             ],
             [
                 "PackParticles",

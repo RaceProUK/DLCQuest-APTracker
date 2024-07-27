@@ -16,7 +16,12 @@ function Reset(slotData)
         if itemCode then
             local item = Tracker:FindObjectForCode(itemCode)
             if item then
-                item.Active = false
+                if itemType == "toggle" then
+                    item.Active = false
+                elseif itemType == "consumable" then
+                    item.AcquiredCount = 0
+                    item.MaxCount = 0
+                end
             end
         end
     end
@@ -46,10 +51,17 @@ function Reset(slotData)
     end
     if slotData["coinsanity"] then
         local setting = Tracker:FindObjectForCode("CoinBundleSize")
+        local dlcqReceived = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
+        local lfodReceived = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
         if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
-            setting.AcquiredCount = tonumber(slotData["coinbundlerange"])
+            local size = tonumber(slotData["coinbundlerange"]);
+            setting.AcquiredCount = size
+            dlcqReceived.MaxCount = math.ceil(825 / size)
+            lfodReceived.MaxCount = math.ceil(889 / size)
         else
             setting.AcquiredCount = 0
+            dlcqReceived.MaxCount = 0
+            lfodReceived.MaxCount = 0
         end
     end
     if slotData["item_shuffle"] then
@@ -70,15 +82,18 @@ function ItemReceived(index, id, name, player)
     end
 
     local itemCode = ItemMap[id]
-    if itemCode == "DLCQCoinBundle" or itemCode == "LFODCoinBundle" then
-        --Coin bundles can be ignored for now
+    if itemCode == "LoadingScreen" or itemCode == "TemporarySpike" or itemCode == "ZombieSheep" then
+        --Traps are always ignored
         return
     elseif itemCode == "DLCQCoinPiece" or itemCode == "LFODCoinPiece" then
-        --So can coin pieces
+        --Coin pieces can be ignored for now
         return
-    elseif itemCode == "LoadingScreen" or itemCode == "TemporarySpike" or itemCode == "ZombieSheep" then
-        --And traps
-        return
+    elseif itemCode == "DLCQCoinBundle" then
+        local received = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
+        received.AcquiredCount = received.AcquiredCount + received.Increment
+    elseif itemCode == "LFODCoinBundle" then
+        local received = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
+        received.AcquiredCount = received.AcquiredCount + received.Increment
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")

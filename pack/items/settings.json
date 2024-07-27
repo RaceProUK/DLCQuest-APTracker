@@ -34,6 +34,7 @@
         "name": "Coin Bundle Size",
         "type": "consumable",
         "max_quantity": 100,
+        "overlay_background": "#000000",
         "img": "images/CoinBundle.png",
         "codes": "CoinBundleSize"
     },
