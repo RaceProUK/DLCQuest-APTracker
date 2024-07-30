@@ -10,6 +10,9 @@ function Reset(slotData)
     DLCQHasProgSword = false
     LFODHasProgSword = false
 
+    --Wallet
+    Wallet:Reset()
+
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
         local itemCode = value[1]
@@ -100,9 +103,13 @@ function ItemReceived(index, id, name, player)
         return
     elseif itemCode == "DLCQCoinBundle" then
         local received = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
+        local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
+        Wallet:DepositDLCQ(bundleSize.AcquiredCount)
         received.AcquiredCount = received.AcquiredCount + received.Increment
     elseif itemCode == "LFODCoinBundle" then
         local received = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
+        local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
+        Wallet:DepositLFOD(bundleSize.AcquiredCount)
         received.AcquiredCount = received.AcquiredCount + received.Increment
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
@@ -132,10 +139,17 @@ function LocationChecked(id, name)
 
     local area = mapping[1]
     local section = mapping[2]
+    local cost = mapping[3]
     local address = "@" .. area .. "/" .. section
     local location = Tracker:FindObjectForCode(address)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
+
+        if id >= 120000 and id <= 120015 then
+            Wallet:WithdrawDLCQ(cost)
+        elseif id >= 120016 and id <= 120032 then
+            Wallet:WithdrawLFOD(cost)
+        end
     end
 end
 

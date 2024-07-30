@@ -14,7 +14,7 @@
     {
         "name": "Coin Bundles",
         "type": "consumable",
-        "max_quantity": 0,
+        "max_quantity": 825,
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "img": "images/CoinBundle.png",

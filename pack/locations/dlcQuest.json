@@ -15,27 +15,34 @@
         "sections": [
             {
                 "name": "Movement Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|4",
+                    "{$AlwaysScoutable}"
+                ]
             },
             {
                 "name": "Animation Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackMovement"
+                    "$MovementOrCoinsanity,$HasSufficientDLCQBalance|5",
+                    "{$AlwaysScoutable}"
                 ]
             },
             {
                 "name": "Audio Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackMovement"
+                    "$MovementOrCoinsanity,$HasSufficientDLCQBalance|5",
+                    "{$AlwaysScoutable}"
                 ]
             },
             {
                 "name": "Pause Menu Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "PackMovement"
+                    "$MovementOrCoinsanity,$HasSufficientDLCQBalance|5",
+                    "{$AlwaysScoutable}"
                 ]
             }
         ]
@@ -59,7 +66,11 @@
         "sections": [
             {
                 "name": "Time is Money Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|20",
+                    "{CoinBundleSize}"
+                ]
             },
             {
                 "name": "Sword",
@@ -93,7 +104,11 @@
         "sections": [
             {
                 "name": "Double Jump Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|100",
+                    "{CoinBundleSize}"
+                ]
             },
             {
                 "name": "Double Jump Alcove Sheep",
@@ -136,7 +151,8 @@
                 "name": "Pet Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "[PackDoubleJump]"
+                    "[PackDoubleJump],$HasSufficientDLCQBalance|5",
+                    "[PackDoubleJump],{CoinBundleSize}"
                 ]
             },
             {
@@ -171,7 +187,11 @@
         "sections": [
             {
                 "name": "Sexy Outfits Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|5",
+                    "{CoinBundleSize}"
+                ]
             },
             {
                 "name": "Sexy Outfits Sheep",
@@ -200,7 +220,11 @@
         "sections": [
             {
                 "name": "Top Hat Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|5",
+                    "{CoinBundleSize}"
+                ]
             },
             {
                 "name": "Top Hat Sheep",
@@ -234,7 +258,11 @@
         "sections": [
             {
                 "name": "Map Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|140",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -258,7 +286,11 @@
         "sections": [
             {
                 "name": "Gun Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|75",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -282,7 +314,11 @@
         "sections": [
             {
                 "name": "The Zombie Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|5",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -306,7 +342,11 @@
         "sections": [
             {
                 "name": "Night Map Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|75",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -329,7 +369,11 @@
         "sections": [
             {
                 "name": "Psychological Warfare Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|50",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -352,7 +396,11 @@
         "sections": [
             {
                 "name": "Armor for your Horse Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|250",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -375,7 +423,11 @@
         "sections": [
             {
                 "name": "Finish the Fight Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientDLCQBalance|5",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -575,6 +627,9 @@
         "name": "DLCQ Coinsanity",
         "chest_unopened_img": "images/CoinBundle.png",
         "chest_opened_img": "images/CoinBundleGrey.png",
+        "visibility_rules": [
+            "CoinBundleSize"
+        ],
         "map_locations": [
             {
                 "map": "DLCQMap",
@@ -588,10 +643,7 @@
             {
                 "name": "Coin Bundle",
                 "clear_as_group": false,
-                "item_count": 825,
-                "visibility_rules": [
-                    "CoinBundleSize"
-                ]
+                "item_count": 825
             }
         ]
     }

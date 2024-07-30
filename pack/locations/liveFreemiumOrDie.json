@@ -15,7 +15,11 @@
         "sections": [
             {
                 "name": "Particles Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientLFODBalance|5",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -35,11 +39,19 @@
         "sections": [
             {
                 "name": "Day One Patch Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientLFODBalance|5",
+                    "{CoinBundleSize}"
+                ]
             },
             {
                 "name": "Checkpoint Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientLFODBalance|5",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -59,7 +71,11 @@
         "sections": [
             {
                 "name": "Incredibly Important Pack",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasSufficientLFODBalance|15",
+                    "{CoinBundleSize}"
+                ]
             }
         ]
     },
@@ -67,6 +83,10 @@
         "name": "Wall Jump Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword",
+            "Pickaxe"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -81,8 +101,8 @@
                 "name": "Wall Jump Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword",
-                    "Pickaxe"
+                    "$HasSufficientLFODBalance|35",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -91,6 +111,10 @@
         "name": "Health Bar Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword",
+            "Pickaxe"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -105,8 +129,8 @@
                 "name": "Health Bar Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword",
-                    "Pickaxe"
+                    "$HasSufficientLFODBalance|5",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -115,6 +139,10 @@
         "name": "Parallax Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword",
+            "Pickaxe"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -129,8 +157,8 @@
                 "name": "Parallax Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword",
-                    "Pickaxe"
+                    "$HasSufficientLFODBalance|5",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -139,6 +167,10 @@
         "name": "Harmless Plants Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump,$CanPassNameChangeGate",
+            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -153,8 +185,8 @@
                 "name": "Harmless Plants Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,$CanPassNameChangeGate",
-                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+                    "$HasSufficientLFODBalance|130",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -163,6 +195,10 @@
         "name": "Death of Comedy Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump",
+            "Pickaxe,PackWallJump"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -177,8 +213,8 @@
                 "name": "Death of Comedy Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump",
-                    "Pickaxe,PackWallJump"
+                    "$HasSufficientLFODBalance|15",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -187,6 +223,9 @@
         "name": "Comedian",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "PackDeathOfComedy"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -199,10 +238,7 @@
         "sections": [
             {
                 "name": "I Get That Reference!",
-                "item_count": 1,
-                "access_rules": [
-                    "PackDeathOfComedy"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -210,6 +246,10 @@
         "name": "Canadian Dialog Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump",
+            "Pickaxe,PackWallJump"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -224,8 +264,8 @@
                 "name": "Canadian Dialog Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump",
-                    "Pickaxe,PackWallJump"
+                    "$HasSufficientLFODBalance|10",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -234,6 +274,10 @@
         "name": "DLC NPC Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump",
+            "Pickaxe,PackWallJump"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -248,8 +292,8 @@
                 "name": "DLC NPC Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump",
-                    "Pickaxe,PackWallJump"
+                    "$HasSufficientLFODBalance|15",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -258,6 +302,10 @@
         "name": "Cut Content Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump,PackHarmlessPlants",
+            "Pickaxe,PackWallJump,PackHarmlessPlants"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -272,8 +320,8 @@
                 "name": "Cut Content Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,PackHarmlessPlants",
-                    "Pickaxe,PackWallJump,PackHarmlessPlants"
+                    "$HasSufficientLFODBalance|40",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -282,6 +330,10 @@
         "name": "Name Change Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump,PackHarmlessPlants",
+            "Pickaxe,PackWallJump,PackHarmlessPlants"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -296,8 +348,8 @@
                 "name": "Name Change Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalSword,PackWallJump,PackHarmlessPlants",
-                    "Pickaxe,PackWallJump,PackHarmlessPlants"
+                    "$HasSufficientLFODBalance|150",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -306,6 +358,9 @@
         "name": "Season Pass",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -320,7 +375,8 @@
                 "name": "Season Pass",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+                    "$HasSufficientLFODBalance|199",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -329,6 +385,9 @@
         "name": "High Definition Next Gen Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -343,7 +402,8 @@
                 "name": "High Definition Next Gen Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+                    "$HasSufficientLFODBalance|20",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -352,6 +412,9 @@
         "name": "Increased HP Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "Pickaxe,PackWallJump"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -366,7 +429,8 @@
                 "name": "Increased HP Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump"
+                    "$HasSufficientLFODBalance|10",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -398,6 +462,9 @@
         "name": "Remove Ads Pack",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "Pickaxe,PackWallJump,PackSeasonPass,$CanPassNameChangeGate"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -412,7 +479,8 @@
                 "name": "Remove Ads Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackSeasonPass,$CanPassNameChangeGate"
+                    "$HasSufficientLFODBalance|25",
+                    "{CoinBundleSize}"
                 ]
             }
         ]
@@ -452,6 +520,13 @@
         "name": "Pickaxe",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,HumbleIndieBindle",
+            "Pickaxe,HumbleIndieBindle"
+        ],
+        "visibility_rules": [
+            "ItemsShuffled"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -464,14 +539,7 @@
         "sections": [
             {
                 "name": "Pickaxe",
-                "item_count": 1,
-                "access_rules": [
-                    "NormalSword,HumbleIndieBindle",
-                    "Pickaxe,HumbleIndieBindle"
-                ],
-                "visibility_rules": [
-                    "ItemsShuffled"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -479,6 +547,12 @@
         "name": "Wooden Sword",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "PackIncrediblyImportant"
+        ],
+        "visibility_rules": [
+            "ItemsShuffled"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -491,13 +565,7 @@
         "sections": [
             {
                 "name": "Wooden Sword",
-                "item_count": 1,
-                "access_rules": [
-                    "PackIncrediblyImportant"
-                ],
-                "visibility_rules": [
-                    "ItemsShuffled"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -505,6 +573,13 @@
         "name": "Box of Various Supplies",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump,PackCutContent,PackNameChange",
+            "Pickaxe,PackWallJump,PackCutContent,PackNameChange"
+        ],
+        "visibility_rules": [
+            "ItemsShuffled"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -517,14 +592,7 @@
         "sections": [
             {
                 "name": "Box of Various Supplies",
-                "item_count": 1,
-                "access_rules": [
-                    "NormalSword,PackWallJump,PackCutContent,PackNameChange",
-                    "Pickaxe,PackWallJump,PackCutContent,PackNameChange"
-                ],
-                "visibility_rules": [
-                    "ItemsShuffled"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -532,6 +600,13 @@
         "name": "Humble Indie Bindle",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "NormalSword,PackWallJump,PackCutContent,SuppliesBox",
+            "Pickaxe,PackWallJump,PackCutContent,SuppliesBox"
+        ],
+        "visibility_rules": [
+            "ItemsShuffled"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -544,14 +619,7 @@
         "sections": [
             {
                 "name": "Humble Indie Bindle",
-                "item_count": 1,
-                "access_rules": [
-                    "NormalSword,PackWallJump,PackCutContent,SuppliesBox",
-                    "Pickaxe,PackWallJump,PackCutContent,SuppliesBox"
-                ],
-                "visibility_rules": [
-                    "ItemsShuffled"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -559,6 +627,9 @@
         "name": "DLC NPC",
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
+        "access_rules": [
+            "PackDLCNPC"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -571,10 +642,7 @@
         "sections": [
             {
                 "name": "Story is Important",
-                "item_count": 1,
-                "access_rules": [
-                    "PackDLCNPC"
-                ]
+                "item_count": 1
             }
         ]
     },
@@ -602,6 +670,9 @@
         "name": "LFOD Coinsanity",
         "chest_unopened_img": "images/CoinBundle.png",
         "chest_opened_img": "images/CoinBundleGrey.png",
+        "visibility_rules": [
+            "CoinBundleSize"
+        ],
         "map_locations": [
             {
                 "map": "LFODMap",
@@ -615,10 +686,7 @@
             {
                 "name": "Coin Bundle",
                 "clear_as_group": false,
-                "item_count": 889,
-                "visibility_rules": [
-                    "CoinBundleSize"
-                ]
+                "item_count": 889
             }
         ]
     }
