@@ -597,5 +597,29 @@
                 "item_count": 1
             }
         ]
+    },
+    {
+        "name": "LFOD Coinsanity",
+        "chest_unopened_img": "images/CoinBundle.png",
+        "chest_opened_img": "images/CoinBundleGrey.png",
+        "map_locations": [
+            {
+                "map": "LFODMap",
+                "x": 4224,
+                "y": 2900,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Coin Bundle",
+                "clear_as_group": false,
+                "item_count": 889,
+                "visibility_rules": [
+                    "CoinBundleSize"
+                ]
+            }
+        ]
     }
 ]

@@ -61,3 +61,11 @@ LocationMap = {
     [120057] = { "Cheats", "Nice Try" },
     [120058] = { "Comedian", "I Get That Reference!" }
 }
+
+for i = 1,825 do
+    LocationMap[120058 + i] = { "DLCQ Coinsanity", "Coin Bundle" }
+end
+
+for i = 1,889 do
+    LocationMap[120058 + 825 + i] = { "LFOD Coinsanity", "Coin Bundle" }
+end

@@ -53,15 +53,25 @@ function Reset(slotData)
         local setting = Tracker:FindObjectForCode("CoinBundleSize")
         local dlcqReceived = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
         local lfodReceived = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
+        local dlcqAvailable = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle")
+        local lfodAvailable = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle")
+
         if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
-            local size = tonumber(slotData["coinbundlerange"]);
+            local size = tonumber(slotData["coinbundlerange"])
+            local dlcqBundles = math.ceil(825 / size)
+            local lfodBundles = math.ceil(889 / size)
+
             setting.AcquiredCount = size
-            dlcqReceived.MaxCount = math.ceil(825 / size)
-            lfodReceived.MaxCount = math.ceil(889 / size)
+            dlcqReceived.MaxCount = dlcqBundles
+            lfodReceived.MaxCount = lfodBundles
+            dlcqAvailable.AvailableChestCount = dlcqBundles
+            lfodAvailable.AvailableChestCount = lfodBundles
         else
             setting.AcquiredCount = 0
             dlcqReceived.MaxCount = 0
             lfodReceived.MaxCount = 0
+            dlcqAvailable.AvailableChestCount = 0
+            lfodAvailable.AvailableChestCount = 0
         end
     end
     if slotData["item_shuffle"] then

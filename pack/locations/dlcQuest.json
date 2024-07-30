@@ -570,5 +570,29 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "DLCQ Coinsanity",
+        "chest_unopened_img": "images/CoinBundle.png",
+        "chest_opened_img": "images/CoinBundleGrey.png",
+        "map_locations": [
+            {
+                "map": "DLCQMap",
+                "x": 2760,
+                "y": 1650,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Coin Bundle",
+                "clear_as_group": false,
+                "item_count": 825,
+                "visibility_rules": [
+                    "CoinBundleSize"
+                ]
+            }
+        ]
     }
 ]
