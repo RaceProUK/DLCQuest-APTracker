@@ -140,16 +140,19 @@ function LocationChecked(id, name)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
 
-        if id >= 120000 and id <= 120015 then
-            Wallet:WithdrawDLCQ(cost)
+        local permanentCoins = Tracker:FindObjectForCode("PermanentCoins")
+        if permanentCoins.Active then
+            if id >= 120000 and id <= 120015 then
+                Wallet:WithdrawDLCQ(cost)
 
-            local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
-            received.AcquiredCount = Wallet.DLCQBalance
-        elseif id >= 120016 and id <= 120032 then
-            Wallet:WithdrawLFOD(cost)
+                local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
+                received.AcquiredCount = Wallet.DLCQBalance
+            elseif id >= 120016 and id <= 120032 then
+                Wallet:WithdrawLFOD(cost)
 
-            local received = Tracker:FindObjectForCode("LFODCoinsReceived")
-            received.AcquiredCount = Wallet.LFODBalance
+                local received = Tracker:FindObjectForCode("LFODCoinsReceived")
+                received.AcquiredCount = Wallet.LFODBalance
+            end
         end
     end
 end
