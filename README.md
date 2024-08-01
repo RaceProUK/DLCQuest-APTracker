@@ -14,4 +14,8 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 - Both campaigns:
   - Non-shuffled items cannot be tracked (game doesn't send checks)
+  - Coins cannot be tracked outside of coinsanity (as above)
   - Item Shuffler icons are low quality (I'm not an artist 😊)
+  - Coinsanity:
+    - No logic for bundles (it's surprisingly complicated to work out)
+    - If another game in a multiworld collects, the coin count may be incorrect (cannot distinguish between normal checks and collects)
