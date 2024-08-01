@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.1",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.1/dlcquest_rando_raceprouk.zip",
+            "sha256": "922376407b64148f00b8ceb6e72d877030fe44112655b4e38b52346ca64a14b6",
+            "changelog": [
+                "Spent coins are no longer deducted because deleting save files is considered in logic by Archipelago"
+            ]
+        },
+        {
             "package_version": "0.5.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.0/dlcquest_rando_raceprouk.zip",
             "sha256": "4e26bd9dfff12c19a22be62a5de0f8263f644a6aab1a587b123e68220210dd75",
