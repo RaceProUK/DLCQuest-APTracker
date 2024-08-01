@@ -31,6 +31,12 @@
         "codes": "Ending"
     },
     {
+        "name": "Permanent Coins",
+        "type": "toggle",
+        "img": "images/PermanentCoins.png",
+        "codes": "PermanentCoins"
+    },
+    {
         "name": "Coin Bundle Size",
         "type": "consumable",
         "max_quantity": 100,

@@ -8,6 +8,7 @@
             [
                 "Campaign",
                 "Ending",
+                "PermanentCoins",
                 "CoinBundleSize",
                 "ItemsShuffled",
                 "DeathLink"

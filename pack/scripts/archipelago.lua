@@ -72,6 +72,10 @@ function Reset(slotData)
         local setting = Tracker:FindObjectForCode("ItemsShuffled")
         setting.Active = slotData["item_shuffle"] ~= 0
     end
+    if slotData["permanent_coins"] then
+        local setting = Tracker:FindObjectForCode("PermanentCoins")
+        setting.Active = slotData["permanent_coins"] ~= 0
+    end
     if slotData["death_link"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
         setting.Active = slotData["death_link"] ~= 0
