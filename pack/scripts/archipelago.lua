@@ -54,25 +54,16 @@ function Reset(slotData)
     end
     if slotData["coinsanity"] then
         local setting = Tracker:FindObjectForCode("CoinBundleSize")
-        local dlcqReceived = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
-        local lfodReceived = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
         local dlcqAvailable = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle")
         local lfodAvailable = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle")
 
         if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
             local size = tonumber(slotData["coinbundlerange"])
-            local dlcqBundles = math.ceil(825 / size)
-            local lfodBundles = math.ceil(889 / size)
-
             setting.AcquiredCount = size
-            dlcqReceived.MaxCount = dlcqBundles
-            lfodReceived.MaxCount = lfodBundles
-            dlcqAvailable.AvailableChestCount = dlcqBundles
-            lfodAvailable.AvailableChestCount = lfodBundles
+            dlcqAvailable.AvailableChestCount = math.ceil(825 / size)
+            lfodAvailable.AvailableChestCount = math.ceil(889 / size)
         else
             setting.AcquiredCount = 0
-            dlcqReceived.MaxCount = 0
-            lfodReceived.MaxCount = 0
             dlcqAvailable.AvailableChestCount = 0
             lfodAvailable.AvailableChestCount = 0
         end
@@ -102,15 +93,15 @@ function ItemReceived(index, id, name, player)
         --Coin pieces can be ignored for now
         return
     elseif itemCode == "DLCQCoinBundle" then
-        local received = Tracker:FindObjectForCode("DLCQCoinBundlesReceived")
+        local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositDLCQ(bundleSize.AcquiredCount)
-        received.AcquiredCount = received.AcquiredCount + received.Increment
+        received.AcquiredCount = received.AcquiredCount + bundleSize.AcquiredCount
     elseif itemCode == "LFODCoinBundle" then
-        local received = Tracker:FindObjectForCode("LFODCoinBundlesReceived")
+        local received = Tracker:FindObjectForCode("LFODCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositLFOD(bundleSize.AcquiredCount)
-        received.AcquiredCount = received.AcquiredCount + received.Increment
+        received.AcquiredCount = received.AcquiredCount + bundleSize.AcquiredCount
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
@@ -147,8 +138,14 @@ function LocationChecked(id, name)
 
         if id >= 120000 and id <= 120015 then
             Wallet:WithdrawDLCQ(cost)
+
+            local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
+            received.AcquiredCount = Wallet.DLCQBalance
         elseif id >= 120016 and id <= 120032 then
             Wallet:WithdrawLFOD(cost)
+
+            local received = Tracker:FindObjectForCode("LFODCoinsReceived")
+            received.AcquiredCount = Wallet.LFODBalance
         end
     end
 end

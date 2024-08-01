@@ -24,13 +24,13 @@
         "codes": "Pickaxe"
     },
     {
-        "name": "Coin Bundles",
+        "name": "Coins",
         "type": "consumable",
         "max_quantity": 889,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "img": "images/CoinBundle.png",
-        "codes": "LFODCoinBundlesReceived"
+        "img": "images/Coins.png",
+        "codes": "LFODCoinsReceived"
     },
     {
         "name": "Particles Pack",

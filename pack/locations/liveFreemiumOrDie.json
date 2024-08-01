@@ -670,6 +670,7 @@
         "name": "LFOD Coinsanity",
         "chest_unopened_img": "images/CoinBundle.png",
         "chest_opened_img": "images/CoinBundleGrey.png",
+        "overlay_background": "#000000",
         "visibility_rules": [
             "CoinBundleSize"
         ],
