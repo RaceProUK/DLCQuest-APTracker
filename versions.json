@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.2",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.2/dlcquest_rando_raceprouk.zip",
+            "sha256": "719cc561bec1c40ef40a6fa12ce5a7192146e1c6b375ca10248aec6f6b135397",
+            "changelog": [
+                "Fixed coins not correctly resetting when connecting to Archipelago"
+            ]
+        },
+        {
             "package_version": "0.5.1",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.1/dlcquest_rando_raceprouk.zip",
             "sha256": "922376407b64148f00b8ceb6e72d877030fe44112655b4e38b52346ca64a14b6",
