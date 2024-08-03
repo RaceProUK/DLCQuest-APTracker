@@ -13,6 +13,12 @@ function Reset(slotData)
     --Wallet
     Wallet:Reset()
 
+    --Coins
+    local dlcqCoins = Tracker:FindObjectForCode("DLCQCoinsReceived")
+    local lfodCoins = Tracker:FindObjectForCode("LFODCoinsReceived")
+    dlcqCoins.AcquiredCount = 0
+    lfodCoins.AcquiredCount = 0
+
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
         local itemCode = value[1]
@@ -21,9 +27,6 @@ function Reset(slotData)
             if item then
                 if itemType == "toggle" then
                     item.Active = false
-                elseif itemType == "consumable" then
-                    item.AcquiredCount = 0
-                    item.MaxCount = 0
                 end
             end
         end
@@ -100,12 +103,12 @@ function ItemReceived(index, id, name, player)
         local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositDLCQ(bundleSize.AcquiredCount)
-        received.AcquiredCount = received.AcquiredCount + bundleSize.AcquiredCount
+        received.AcquiredCount = Wallet.DLCQBalance
     elseif itemCode == "LFODCoinBundle" then
         local received = Tracker:FindObjectForCode("LFODCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositLFOD(bundleSize.AcquiredCount)
-        received.AcquiredCount = received.AcquiredCount + bundleSize.AcquiredCount
+        received.AcquiredCount = Wallet.LFODBalance
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
