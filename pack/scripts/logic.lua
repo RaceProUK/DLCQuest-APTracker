@@ -20,8 +20,6 @@ end
 --so when Coinsanity is not being used, always assume the player
 --has sufficient funds to buy all available DLC packs
 function HasSufficientDLCQBalance(cost)
-    print(Wallet.DLCQBalance)
-
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.DLCQBalance
 end
