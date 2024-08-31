@@ -35,7 +35,7 @@ end
 --to determine if there are still more available
 function CanReachRemainingDLCQBundles()
     local reachableCoins = ReachableDLCQCoins()
-    if reachableCoins = 825 then
+    if reachableCoins == 825 then
         return true
     else
         local remainingBundles = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle").AvailableChestCount
@@ -48,7 +48,7 @@ function CanReachRemainingDLCQBundles()
 end
 function CanReachRemainingLFODBundles()
     local reachableCoins = ReachableLFODCoins()
-    if reachableCoins = 889 then
+    if reachableCoins == 889 then
         return true
     else
         local remainingBundles = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle").AvailableChestCount
@@ -105,7 +105,7 @@ function ReachableLFODCoins()
     local ax = Tracker:FindObjectForCode("Pickaxe").Active
     local wj = Tracker:FindObjectForCode("PackWallJump").Active
     local cc = Tracker:FindObjectForCode("PackCutContent").Active
-    local sp = Tracker:FindObjectForCode("SeasonPass").Active
+    local sp = Tracker:FindObjectForCode("PackSeasonPass").Active
 
     if not wj then
         if ax then
