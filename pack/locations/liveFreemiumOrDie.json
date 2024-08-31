@@ -687,7 +687,10 @@
             {
                 "name": "Coin Bundle",
                 "clear_as_group": false,
-                "item_count": 889
+                "item_count": 889,
+                "access_rules": [
+                    "$CanReachRemainingLFODBundles"
+                ]
             }
         ]
     }
