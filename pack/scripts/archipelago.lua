@@ -103,12 +103,12 @@ function ItemReceived(index, id, name, player)
         local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositDLCQ(bundleSize.AcquiredCount)
-        received.AcquiredCount = Wallet.DLCQBalance
+        received.AcquiredCount = math.min(Wallet.DLCQBalance, received.MaxCount)
     elseif itemCode == "LFODCoinBundle" then
         local received = Tracker:FindObjectForCode("LFODCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
         Wallet:DepositLFOD(bundleSize.AcquiredCount)
-        received.AcquiredCount = Wallet.LFODBalance
+        received.AcquiredCount = math.min(Wallet.LFODBalance, received.MaxCount)
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
