@@ -25,9 +25,7 @@ function Reset(slotData)
         if itemCode then
             local item = Tracker:FindObjectForCode(itemCode)
             if item then
-                if itemType == "toggle" then
-                    item.Active = false
-                end
+                item.Active = false
             end
         end
     end
