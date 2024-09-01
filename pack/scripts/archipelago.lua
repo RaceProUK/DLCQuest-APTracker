@@ -47,7 +47,7 @@ function Reset(slotData)
     end
     if slotData["campaign"] then
         local setting = Tracker:FindObjectForCode("Campaign")
-        setting.CurrentStage = tonumber(slotData["campaign"])
+        setting.CurrentStage = math.tointeger(slotData["campaign"]) or 0
     end
     if slotData["ending_choice"] then
         local setting = Tracker:FindObjectForCode("Ending")
@@ -59,8 +59,8 @@ function Reset(slotData)
         local lfodAvailable = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle")
 
         if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
-            local size = tonumber(slotData["coinbundlerange"])
-            setting.AcquiredCount = size
+            local size = math.tointeger(slotData["coinbundlerange"])
+            setting.AcquiredCount = size or 0
             dlcqAvailable.AvailableChestCount = math.ceil(825 / size)
             lfodAvailable.AvailableChestCount = math.ceil(889 / size)
         else
@@ -100,27 +100,35 @@ function ItemReceived(index, id, name, player)
     elseif itemCode == "DLCQCoinBundle" then
         local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-        Wallet:DepositDLCQ(bundleSize.AcquiredCount)
-        received.AcquiredCount = math.min(Wallet.DLCQBalance, received.MaxCount)
+        if received and bundleSize then
+            Wallet:DepositDLCQ(bundleSize.AcquiredCount)
+            received.AcquiredCount = math.min(Wallet.DLCQBalance, received.MaxCount)
+        end
     elseif itemCode == "LFODCoinBundle" then
         local received = Tracker:FindObjectForCode("LFODCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-        Wallet:DepositLFOD(bundleSize.AcquiredCount)
-        received.AcquiredCount = math.min(Wallet.LFODBalance, received.MaxCount)
+        if received and bundleSize then
+            Wallet:DepositLFOD(bundleSize.AcquiredCount)
+            received.AcquiredCount = math.min(Wallet.LFODBalance, received.MaxCount)
+        end
     elseif itemCode == "DLCQProgWeapon" then
         local sword = Tracker:FindObjectForCode("Sword")
         local gun = Tracker:FindObjectForCode("Gun")
-        gun.Active = sword.Active and DLCQHasProgSword
-        sword.Active = true
-        DLCQHasProgSword = true
+        if sword and gun then
+            gun.Active = sword.Active and DLCQHasProgSword
+            sword.Active = true
+            DLCQHasProgSword = true
+        end
     elseif itemCode == "LFODProgWeapon" then
         local sword = Tracker:FindObjectForCode("NormalSword")
         local pickaxe = Tracker:FindObjectForCode("Pickaxe")
-        pickaxe.Active = sword.Active and LFODHasProgSword
-        sword.Active = true
-        LFODHasProgSword = true
+        if sword and pickaxe then
+            pickaxe.Active = sword.Active and LFODHasProgSword
+            sword.Active = true
+            LFODHasProgSword = true
+        end
     else
-        local item = Tracker:FindObjectForCode(itemCode)
+        local item = Tracker:FindObjectForCode(tostring(itemCode))
         if item then
             item.Active = true
         end

@@ -14,7 +14,11 @@ end
 function MovementOrCoinsanity()
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     local movement = Tracker:FindObjectForCode("PackMovement")
-    return bundleSize.AcquiredCount > 0 or movement.Active
+    if bundleSize and movement then
+        return bundleSize.AcquiredCount > 0 or movement.Active
+    else
+        return true
+    end
 end
 
 --It's currently not possible to track coins outside of Coinsanity,
@@ -22,11 +26,19 @@ end
 --has sufficient funds to buy all available DLC packs
 function HasSufficientDLCQBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-    return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.DLCQBalance
+    if bundleSize then
+        return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.DLCQBalance
+    else
+        return true
+    end
 end
 function HasSufficientLFODBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-    return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.LFODBalance
+    if bundleSize then
+        return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.LFODBalance
+    else
+        return true
+    end
 end
 
 --Work out how many coin bundles can be collected
