@@ -16,4 +16,7 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
   - Non-shuffled items cannot be tracked (game doesn't send checks)
   - Coins cannot be tracked outside of coinsanity (as above)
   - Item Shuffler icons are low quality (I'm not an artist 😊)
-  - No logic for coin bundles (it's surprisingly complicated to work out)
+
+## Special Thanks
+
+- Anton Beardhead (bennydreamly) on the [Archipelago Discord](https://discord.gg/8Z65BR2) for the coin count research

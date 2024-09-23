@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.5.3",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.3/dlcquest_rando_raceprouk.zip",
+            "sha256": "1e77660a208a593c1cfc0438643d2abd86301283d8fba65d7ca324a7b4a9e978",
+            "changelog": [
+                "Logic now implemented for Coinsanity bundles",
+                "Fixed a minor bug when resetting the tracker"
+            ]
+        },
+        {
             "package_version": "0.5.2",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.2/dlcquest_rando_raceprouk.zip",
             "sha256": "719cc561bec1c40ef40a6fa12ce5a7192146e1c6b375ca10248aec6f6b135397",
