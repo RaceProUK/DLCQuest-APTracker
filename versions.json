@@ -3,7 +3,7 @@
         {
             "package_version": "0.5.4",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.4/dlcquest_rando_raceprouk.zip",
-            "sha256": "78ba738fc6c06987cbf8cc5092846df2b62356ad45af601783893e66b7ff56b3",
+            "sha256": "66febb57286e73bb16b614a803a5463b36055d2ad68f0bd024580eb41e950cf4",
             "changelog": [
                 "Fixed erroneous Coinsanity logic",
                 "Replaced the Item Shuffle icon",
