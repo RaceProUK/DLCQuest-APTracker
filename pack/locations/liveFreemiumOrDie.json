@@ -359,7 +359,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+            "Pickaxe,PackWallJump,[PackHarmlessPlants],$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
@@ -386,7 +386,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+            "Pickaxe,PackWallJump,[PackHarmlessPlants],$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
@@ -453,7 +453,7 @@
                 "name": "Not Exactly Noble",
                 "item_count": 1,
                 "access_rules": [
-                    "Pickaxe,PackWallJump,PackSeasonPass,[PackCheckpoint],$CanPassNameChangeGate"
+                    "Pickaxe,PackWallJump,PackSeasonPass,[PackHarmlessPlants],[PackCheckpoint],$CanPassNameChangeGate"
                 ]
             }
         ]
@@ -463,7 +463,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,PackSeasonPass,$CanPassNameChangeGate"
+            "Pickaxe,PackWallJump,PackSeasonPass,[PackHarmlessPlants],$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
@@ -490,7 +490,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword,$CanPassNameChangeGate"
+            "Pickaxe,PackWallJump,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword,[PackHarmlessPlants],$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
