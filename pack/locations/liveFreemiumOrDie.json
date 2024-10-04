@@ -574,8 +574,8 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,PackCutContent,PackNameChange",
-            "Pickaxe,PackWallJump,PackCutContent,PackNameChange"
+            "NormalSword,PackWallJump,PackCutContent,[PackHarmlessPlants],$CanPassNameChangeGate",
+            "Pickaxe,PackWallJump,PackCutContent,[PackHarmlessPlants]"
         ],
         "visibility_rules": [
             "ItemsShuffled"
@@ -601,8 +601,8 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,PackCutContent,SuppliesBox",
-            "Pickaxe,PackWallJump,PackCutContent,SuppliesBox"
+            "NormalSword,PackWallJump,PackCutContent,SuppliesBox,[PackHarmlessPlants]",
+            "Pickaxe,PackWallJump,PackCutContent,SuppliesBox,[PackHarmlessPlants]"
         ],
         "visibility_rules": [
             "ItemsShuffled"
