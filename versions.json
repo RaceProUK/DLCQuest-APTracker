@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.5",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.5/dlcquest_rando_raceprouk.zip",
+            "sha256": "ccb1a3c727438c93b6263a86bc3f4ff1043622bfd85e060ab9b3a759fbe55297",
+            "changelog": [
+                "Updated Cut Content and Season Pass areas logic to better reflect APWorld logic"
+            ]
+        },
+        {
             "package_version": "0.5.4",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.4/dlcquest_rando_raceprouk.zip",
             "sha256": "66febb57286e73bb16b614a803a5463b36055d2ad68f0bd024580eb41e950cf4",
