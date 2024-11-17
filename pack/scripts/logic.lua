@@ -97,7 +97,7 @@ function ReachableDLCQCoins()
         if mp then 
             return 656 
         else 
-            return 260 
+            return 206
         end
     elseif sw and not dj and pw then
         return 210
