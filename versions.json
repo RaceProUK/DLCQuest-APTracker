@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.6",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.6/dlcquest_rando_raceprouk.zip",
+            "sha256": "108287485dbcd1be98b3045d1c16fe9f2bd5fab780ed68f4c043856cac1d8ae4",
+            "changelog": [
+                "Fixed erroneous Coinsanity logic"
+            ]
+        },
+        {
             "package_version": "0.5.5",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.5.5/dlcquest_rando_raceprouk.zip",
             "sha256": "ccb1a3c727438c93b6263a86bc3f4ff1043622bfd85e060ab9b3a759fbe55297",
