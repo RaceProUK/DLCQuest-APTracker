@@ -26,29 +26,49 @@ end
 --has sufficient funds to buy all available DLC packs
 function HasSufficientDLCQBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-    if bundleSize then
-        return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.DLCQBalance
+    local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    if bundleSize and coinPieces then
+        if coinPieces.Active then
+            return tonumber(cost * 10) <= Wallet.DLCQBalance
+        elseif bundleSize.AcquiredCount > 0 then
+            return tonumber(cost * 10) <= Wallet.DLCQBalance
+        else
+            return true
+        end
     else
         return true
     end
 end
 function HasSufficientLFODBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
-    if bundleSize then
-        return bundleSize.AcquiredCount == 0 or tonumber(cost) <= Wallet.LFODBalance
+    local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    if bundleSize and coinPieces then
+        if coinPieces.Active then
+            return tonumber(cost * 10) <= Wallet.LFODBalance
+        elseif bundleSize.AcquiredCount > 0 then
+            return tonumber(cost * 10) <= Wallet.LFODBalance
+        else
+            return true
+        end
     else
         return true
     end
 end
 
---Work out how many coin bundles can be collected
+--Work out how many coin bundles/pieces can be collected
 --with the player's current items and compare that
---to the number of bundles actually collected
+--to the number of bundles/pieces actually collected
 --to determine if there are still more available
-function CanReachRemainingDLCQBundles()
+function CanReachRemainingDLCQCoins()
     local reachableCoins = ReachableDLCQCoins()
     if reachableCoins == 825 then
         return true
+    elseif Tracker:FindObjectForCode("CoinPieces").Active then
+        local remainingPieces = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Piece").AvailableChestCount
+        local reachablePieces = reachableCoins * 10
+        local collectedPieces = 8250 - remainingPieces
+        print("Collected: ", collectedPieces, "Reachable: ", reachablePieces, "Remaining: ", remainingPieces)
+        return collectedPieces < reachablePieces
     else
         local remainingBundles = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle").AvailableChestCount
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize").AcquiredCount
@@ -58,10 +78,15 @@ function CanReachRemainingDLCQBundles()
         return collectedBundles < reachableBundles
     end
 end
-function CanReachRemainingLFODBundles()
+function CanReachRemainingLFODCoins()
     local reachableCoins = ReachableLFODCoins()
     if reachableCoins == 889 then
         return true
+    elseif Tracker:FindObjectForCode("CoinPieces").Active then
+        local remainingPieces = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Piece").AvailableChestCount
+        local reachablePieces = reachableCoins * 10
+        local collectedPieces = 8890 - remainingPieces
+        return collectedPieces < reachablePieces
     else
         local remainingBundles = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle").AvailableChestCount
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize").AcquiredCount

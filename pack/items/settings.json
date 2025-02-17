@@ -45,6 +45,12 @@
         "codes": "CoinBundleSize"
     },
     {
+        "name": "Coin Pieces",
+        "type": "toggle",
+        "img": "images/CoinPieces.png",
+        "codes": "CoinPieces"
+    },
+    {
         "name": "Item Shuffle",
         "type": "toggle",
         "img": "images/ItemsShuffled.png",

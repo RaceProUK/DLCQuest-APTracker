@@ -7,10 +7,17 @@
         "rows": [
             [
                 "Campaign",
-                "Ending",
+                "",
+                "Ending"
+            ],
+            [
                 "PermanentCoins",
                 "CoinBundleSize",
+                "CoinPieces"
+            ],
+            [
                 "ItemsShuffled",
+                "",
                 "DeathLink"
             ]
         ]

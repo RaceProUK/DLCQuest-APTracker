@@ -628,9 +628,6 @@
         "chest_unopened_img": "images/CoinBundle.png",
         "chest_opened_img": "images/CoinBundleGrey.png",
         "overlay_background": "#000000",
-        "visibility_rules": [
-            "CoinBundleSize"
-        ],
         "map_locations": [
             {
                 "map": "DLCQMap",
@@ -645,8 +642,22 @@
                 "name": "Coin Bundle",
                 "clear_as_group": false,
                 "item_count": 825,
+                "visibility_rules": [
+                    "CoinBundleSize"
+                ],
                 "access_rules": [
-                    "$CanReachRemainingDLCQBundles"
+                    "$CanReachRemainingDLCQCoins"
+                ]
+            },
+            {
+                "name": "Coin Piece",
+                "clear_as_group": false,
+                "item_count": 8250,
+                "visibility_rules": [
+                    "CoinPieces"
+                ],
+                "access_rules": [
+                    "$CanReachRemainingDLCQCoins"
                 ]
             }
         ]

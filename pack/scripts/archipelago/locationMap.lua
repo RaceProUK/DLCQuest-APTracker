@@ -64,11 +64,17 @@ LocationMap = {
     [120057] = { "Cheats", "Nice Try" },
     [120058] = { "Comedian", "I Get That Reference!" }
 }
-
 for i = 1,825 do
     LocationMap[120058 + i] = { "DLCQ Coinsanity", "Coin Bundle" }
 end
-
 for i = 1,889 do
     LocationMap[120058 + 825 + i] = { "LFOD Coinsanity", "Coin Bundle" }
+end
+
+local coinPieceBaseId = 3829200000
+for i = 1,8250 do
+    LocationMap[coinPieceBaseId + i] = { "DLCQ Coinsanity", "Coin Piece" }
+end
+for i = 1,8890 do
+    LocationMap[coinPieceBaseId + 8250 + i] = { "LFOD Coinsanity", "Coin Piece" }
 end

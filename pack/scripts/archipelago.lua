@@ -54,19 +54,29 @@ function Reset(slotData)
         setting.Active = slotData["ending_choice"] ~= 0
     end
     if slotData["coinsanity"] then
-        local setting = Tracker:FindObjectForCode("CoinBundleSize")
-        local dlcqAvailable = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle")
-        local lfodAvailable = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle")
+        local bundleSetting = Tracker:FindObjectForCode("CoinBundleSize")
+        local piecesSetting = Tracker:FindObjectForCode("CoinPieces")
+        local dlcqBundlesAvailable = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle")
+        local lfodBundlesAvailable = Tracker:FindObjectForCode("@LFOD Coinsanity/Coin Bundle")
 
         if slotData["coinsanity"] ~= 0 and slotData["coinbundlerange"] then
             local size = math.tointeger(slotData["coinbundlerange"])
-            setting.AcquiredCount = size or 0
-            dlcqAvailable.AvailableChestCount = math.ceil(825 / size)
-            lfodAvailable.AvailableChestCount = math.ceil(889 / size)
+            if size > 0 then
+                bundleSetting.AcquiredCount = size or 0
+                piecesSetting.Active = false
+                dlcqBundlesAvailable.AvailableChestCount = math.ceil(825 / size)
+                lfodBundlesAvailable.AvailableChestCount = math.ceil(889 / size)
+            else
+                bundleSetting.AcquiredCount = 0
+                piecesSetting.Active = true
+                dlcqBundlesAvailable.AvailableChestCount = 0
+                lfodBundlesAvailable.AvailableChestCount = 0
+            end
         else
-            setting.AcquiredCount = 0
-            dlcqAvailable.AvailableChestCount = 0
-            lfodAvailable.AvailableChestCount = 0
+            bundleSetting.AcquiredCount = 0
+            piecesSetting.Active = false
+            dlcqBundlesAvailable.AvailableChestCount = 0
+            lfodBundlesAvailable.AvailableChestCount = 0
         end
     end
     if slotData["item_shuffle"] then
@@ -94,9 +104,18 @@ function ItemReceived(index, id, name, player)
     if itemCode == "LoadingScreen" or itemCode == "TemporarySpike" or itemCode == "ZombieSheep" then
         --Traps are always ignored
         return
-    elseif itemCode == "DLCQCoinPiece" or itemCode == "LFODCoinPiece" then
-        --Coin pieces can be ignored for now
-        return
+    elseif itemCode == "DLCQCoinPiece" then
+        local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
+        if received then
+            Wallet:DepositDLCQ(1)
+            received.AcquiredCount = math.min(Wallet.DLCQBalance / 10, received.MaxCount)
+        end
+    elseif itemCode == "LFODCoinPiece" then
+        local received = Tracker:FindObjectForCode("LFODCoinsReceived")
+        if received then
+            Wallet:DepositLFOD(1)
+            received.AcquiredCount = math.min(Wallet.LFODBalance / 10, received.MaxCount)
+        end
     elseif itemCode == "DLCQCoinBundle" then
         local received = Tracker:FindObjectForCode("DLCQCoinsReceived")
         local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
