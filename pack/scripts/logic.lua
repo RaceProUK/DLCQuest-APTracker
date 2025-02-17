@@ -27,11 +27,12 @@ end
 function HasSufficientDLCQBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    cost = tonumber(cost)
     if bundleSize and coinPieces then
         if coinPieces.Active then
-            return tonumber(cost * 10) <= Wallet.DLCQBalance
+            return (cost * 10) <= Wallet.DLCQBalance
         elseif bundleSize.AcquiredCount > 0 then
-            return tonumber(cost * 10) <= Wallet.DLCQBalance
+            return cost <= Wallet.DLCQBalance
         else
             return true
         end
@@ -42,11 +43,12 @@ end
 function HasSufficientLFODBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    cost = tonumber(cost)
     if bundleSize and coinPieces then
         if coinPieces.Active then
-            return tonumber(cost * 10) <= Wallet.LFODBalance
+            return (cost * 10) <= Wallet.LFODBalance
         elseif bundleSize.AcquiredCount > 0 then
-            return tonumber(cost * 10) <= Wallet.LFODBalance
+            return cost <= Wallet.LFODBalance
         else
             return true
         end
