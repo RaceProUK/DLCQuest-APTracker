@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.6.1",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.1/dlcquest_rando_raceprouk.zip",
+            "sha256": "7215f1a79a942f25dff43e075c296f97170b6908c79b38ae5a4cbb9c0a8ce9f3",
+            "changelog": [
+                "Fixed minor logic error with Cutscene Sheep"
+            ]
+        },
+        {
             "package_version": "0.6.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.0/dlcquest_rando_raceprouk.zip",
             "sha256": "d15a1b96fbfb3b2fac8047f94c78f369966a802bc6308c35f8f77b7edaa18d23",

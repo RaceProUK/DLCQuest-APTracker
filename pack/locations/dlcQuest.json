@@ -617,7 +617,7 @@
                 "name": "Cutscene Sheep",
                 "item_count": 1,
                 "access_rules": [
-                    "Sword",
+                    "Sword,PackDoubleJump",
                     "Gun"
                 ]
             }
