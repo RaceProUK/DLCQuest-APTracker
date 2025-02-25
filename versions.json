@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.6.2",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.2/dlcquest_rando_raceprouk.zip",
+            "sha256": "a68c295e3cc0ca93dfaecdb23e645952d2d73850a3ab769d0240b44cc5ff858e",
+            "changelog": [
+                "Fixed minor logic errors with Double Jump Alcove/Floating Sheep"
+            ]
+        },
+        {
             "package_version": "0.6.1",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.1/dlcquest_rando_raceprouk.zip",
             "sha256": "7215f1a79a942f25dff43e075c296f97170b6908c79b38ae5a4cbb9c0a8ce9f3",
