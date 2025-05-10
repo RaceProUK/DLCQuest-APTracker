@@ -1,3 +1,5 @@
+Tracker.AllowDeferredLogicUpdate = true
+
 Tracker:AddLocations("locations/dlcQuest.json")
 Tracker:AddLocations("locations/liveFreemiumOrDie.json")
 
@@ -25,6 +27,4 @@ Tracker:AddLayouts("layouts/tracker.json")
 
 ScriptHost:LoadScript("scripts/wallet.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
-if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/archipelago.lua")
-end
+ScriptHost:LoadScript("scripts/archipelago.lua")

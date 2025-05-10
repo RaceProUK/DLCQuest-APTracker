@@ -6,6 +6,8 @@ DLCQHasProgSword = false
 LFODHasProgSword = false
 
 function Reset(slotData)
+    Tracker.BulkUpdate = true
+
     CurrentIndex = -1
     DLCQHasProgSword = false
     LFODHasProgSword = false
@@ -91,6 +93,8 @@ function Reset(slotData)
         local setting = Tracker:FindObjectForCode("DeathLink")
         setting.Active = slotData["death_link"] ~= 0
     end
+
+    Tracker.BulkUpdate = false
 end
 
 function ItemReceived(index, id, name, player)
@@ -162,11 +166,15 @@ function LocationChecked(id, name)
 
     local area = mapping[1]
     local section = mapping[2]
-    local cost = mapping[3]
+    --local cost = mapping[3]
     local address = "@" .. area .. "/" .. section
     local location = Tracker:FindObjectForCode(address)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
+
+        --Toggle to force logic rules to run
+        Tracker.BulkUpdate = true
+        Tracker.BulkUpdate = false
 
         --local permanentCoins = Tracker:FindObjectForCode("PermanentCoins")
         --if permanentCoins.Active then
