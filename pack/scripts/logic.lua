@@ -69,7 +69,6 @@ function CanReachRemainingDLCQCoins()
         local remainingPieces = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Piece").AvailableChestCount
         local reachablePieces = reachableCoins * 10
         local collectedPieces = 8250 - remainingPieces
-        print("Collected: ", collectedPieces, "Reachable: ", reachablePieces, "Remaining: ", remainingPieces)
         return collectedPieces < reachablePieces
     else
         local remainingBundles = Tracker:FindObjectForCode("@DLCQ Coinsanity/Coin Bundle").AvailableChestCount
