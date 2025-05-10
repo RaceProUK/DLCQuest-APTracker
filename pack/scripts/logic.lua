@@ -110,19 +110,19 @@ function ReachableDLCQCoins()
     elseif not sw and not dj and not pw then
         return 50
     elseif sw and not dj and not pw then
-        if mp then 
-            return 281 
-        else 
-            return 110 
+        if mp then
+            return 281
+        else
+            return 110
         end
     elseif not sw and dj and not pw then
         return 50
     elseif not sw and not dj and pw then
         return 150
     elseif sw and dj and not pw then
-        if mp then 
-            return 656 
-        else 
+        if mp then
+            return 656
+        else
             return 206
         end
     elseif sw and not dj and pw then
@@ -131,9 +131,9 @@ function ReachableDLCQCoins()
         return 216
     elseif sw and dj and pw then
         if mp then
-            return 825 
-        else 
-            return 375 
+            return 825
+        else
+            return 375
         end
     end
 end
