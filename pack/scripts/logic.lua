@@ -21,39 +21,53 @@ function MovementOrCoinsanity()
     end
 end
 
---It's currently not possible to track coins outside of Coinsanity,
---so when Coinsanity is not being used, always assume the player
---has sufficient funds to buy all available DLC packs
+--It's impossible to track spent coins, so:
+--When Coinsanity is on, check against the total value of collected coin bundles
+--When Coinsanity is off, check against the total number of reachable coins
 function HasSufficientDLCQBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    local funds = ReachableDLCQCoins()
     cost = tonumber(cost)
+
+    --Coinsanity overrides funds
     if bundleSize and coinPieces then
         if coinPieces.Active then
-            return (cost * 10) <= Wallet.DLCQBalance
+            funds = math.floor(Wallet.DLCQBalance / 10)
         elseif bundleSize.AcquiredCount > 0 then
-            return cost <= Wallet.DLCQBalance
-        else
-            return true
+            funds = Wallet.DLCQBalance
         end
+    end
+
+    --If we can afford it, we can buy it
+    --If we can't afford it, we can still browse
+    if cost <= funds then
+        return AccessibilityLevel.Normal
     else
-        return true
+        return AccessibilityLevel.Inspect
     end
 end
 function HasSufficientLFODBalance(cost)
     local bundleSize = Tracker:FindObjectForCode("CoinBundleSize")
     local coinPieces = Tracker:FindObjectForCode("CoinPieces")
+    local funds = ReachableLFODCoins()
     cost = tonumber(cost)
+
+    --Coinsanity overrides funds
     if bundleSize and coinPieces then
         if coinPieces.Active then
-            return (cost * 10) <= Wallet.LFODBalance
+            funds = math.floor(Wallet.LFODBalance / 10)
         elseif bundleSize.AcquiredCount > 0 then
-            return cost <= Wallet.LFODBalance
-        else
-            return true
+            funds = Wallet.LFODBalance
         end
+    end
+
+    --If we can afford it, we can buy it
+    --If we can't afford it, we can still browse
+    if cost <= funds then
+        return AccessibilityLevel.Normal
     else
-        return true
+        return AccessibilityLevel.Inspect
     end
 end
 

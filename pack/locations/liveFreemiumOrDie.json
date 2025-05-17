@@ -17,7 +17,7 @@
                 "name": "Particles Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|5",
+                    "^$HasSufficientLFODBalance|5",
                     "{CoinBundleSize}"
                 ]
             }
@@ -41,7 +41,7 @@
                 "name": "Day One Patch Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|5",
+                    "^$HasSufficientLFODBalance|5",
                     "{CoinBundleSize}"
                 ]
             },
@@ -49,7 +49,7 @@
                 "name": "Checkpoint Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|5",
+                    "^$HasSufficientLFODBalance|5",
                     "{CoinBundleSize}"
                 ]
             }
@@ -73,7 +73,7 @@
                 "name": "Incredibly Important Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|15",
+                    "^$HasSufficientLFODBalance|15",
                     "{CoinBundleSize}"
                 ]
             }
@@ -101,7 +101,7 @@
                 "name": "Wall Jump Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|35",
+                    "^$HasSufficientLFODBalance|35",
                     "{CoinBundleSize}"
                 ]
             }
@@ -129,7 +129,7 @@
                 "name": "Health Bar Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|5",
+                    "^$HasSufficientLFODBalance|5",
                     "{CoinBundleSize}"
                 ]
             }
@@ -157,7 +157,7 @@
                 "name": "Parallax Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|5",
+                    "^$HasSufficientLFODBalance|5",
                     "{CoinBundleSize}"
                 ]
             }
@@ -185,7 +185,7 @@
                 "name": "Harmless Plants Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|130",
+                    "^$HasSufficientLFODBalance|130",
                     "{CoinBundleSize}"
                 ]
             }
@@ -213,7 +213,7 @@
                 "name": "Death of Comedy Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|15",
+                    "^$HasSufficientLFODBalance|15",
                     "{CoinBundleSize}"
                 ]
             }
@@ -264,7 +264,7 @@
                 "name": "Canadian Dialog Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|10",
+                    "^$HasSufficientLFODBalance|10",
                     "{CoinBundleSize}"
                 ]
             }
@@ -292,7 +292,7 @@
                 "name": "DLC NPC Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|15",
+                    "^$HasSufficientLFODBalance|15",
                     "{CoinBundleSize}"
                 ]
             }
@@ -320,7 +320,7 @@
                 "name": "Cut Content Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|40",
+                    "^$HasSufficientLFODBalance|40",
                     "{CoinBundleSize}"
                 ]
             }
@@ -348,7 +348,7 @@
                 "name": "Name Change Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|150",
+                    "^$HasSufficientLFODBalance|150",
                     "{CoinBundleSize}"
                 ]
             }
@@ -375,7 +375,7 @@
                 "name": "Season Pass",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|199",
+                    "^$HasSufficientLFODBalance|199",
                     "{CoinBundleSize}"
                 ]
             }
@@ -402,7 +402,7 @@
                 "name": "High Definition Next Gen Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|20",
+                    "^$HasSufficientLFODBalance|20",
                     "{CoinBundleSize}"
                 ]
             }
@@ -429,7 +429,7 @@
                 "name": "Increased HP Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|10",
+                    "^$HasSufficientLFODBalance|10",
                     "{CoinBundleSize}"
                 ]
             }
@@ -479,7 +479,7 @@
                 "name": "Remove Ads Pack",
                 "item_count": 1,
                 "access_rules": [
-                    "$HasSufficientLFODBalance|25",
+                    "^$HasSufficientLFODBalance|25",
                     "{CoinBundleSize}"
                 ]
             }
