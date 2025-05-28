@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.6.5",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.5/dlcquest_rando_raceprouk.zip",
+            "sha256": "4db9742998be5259481b4f2a14906b7082e8485418226e4cdfb4446571307e4d",
+            "changelog": [
+                "Fixed a bug with items not resetting properly when connecting to an Archipelago server"
+            ]
+        },
+        {
             "package_version": "0.6.4",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.4/dlcquest_rando_raceprouk.zip",
             "sha256": "8b1da28a04864a3702ce6d68fa2f368ad7e845e17afd20fc4be659163cd0ea34",
