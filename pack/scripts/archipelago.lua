@@ -23,7 +23,7 @@ function Reset(slotData)
 
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
-        local itemCode = value[1]
+        local itemCode = tostring(value)
         if itemCode then
             local item = Tracker:FindObjectForCode(itemCode)
             if item then
