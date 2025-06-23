@@ -8,7 +8,7 @@
                 "map": "DLCQMap",
                 "x": 4024,
                 "y": 1280,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -59,7 +59,7 @@
                 "map": "DLCQMap",
                 "x": 2968,
                 "y": 1232,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -97,7 +97,7 @@
                 "map": "DLCQMap",
                 "x": 4872,
                 "y": 1144,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -144,7 +144,7 @@
                 "map": "DLCQMap",
                 "x": 120,
                 "y": 1448,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -182,7 +182,7 @@
                 "map": "DLCQMap",
                 "x": 1560,
                 "y": 2140,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -215,7 +215,7 @@
                 "map": "DLCQMap",
                 "x": 1064,
                 "y": 584,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -253,7 +253,7 @@
                 "map": "DLCQMap",
                 "x": 960,
                 "y": 2812,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -281,7 +281,7 @@
                 "map": "DLCQMap",
                 "x": 4046,
                 "y": 3012,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -309,7 +309,7 @@
                 "map": "DLCQMap",
                 "x": 2840,
                 "y": 2780,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -337,7 +337,7 @@
                 "map": "DLCQMap",
                 "x": 1496,
                 "y": 2812,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -364,7 +364,7 @@
                 "map": "DLCQMap",
                 "x": 1152,
                 "y": 1216,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -391,7 +391,7 @@
                 "map": "DLCQMap",
                 "x": 3784,
                 "y": 1144,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -418,7 +418,7 @@
                 "map": "DLCQMap",
                 "x": 4400,
                 "y": 3036,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -446,7 +446,7 @@
                 "map": "DLCQMap",
                 "x": 694,
                 "y": 2860,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -473,7 +473,7 @@
                 "map": "DLCQMap",
                 "x": 3200,
                 "y": 2236,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -501,7 +501,7 @@
                 "map": "DLCQMap",
                 "x": 5136,
                 "y": 1232,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -525,7 +525,7 @@
                 "map": "DLCQMap",
                 "x": 5024,
                 "y": 1552,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -548,7 +548,7 @@
                 "map": "DLCQMap",
                 "x": 2592,
                 "y": 1456,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -575,7 +575,7 @@
                 "map": "DLCQMap",
                 "x": 576,
                 "y": 568,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -610,7 +610,7 @@
                 "map": "DLCQMap",
                 "x": 3440,
                 "y": 848,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
@@ -635,7 +635,7 @@
                 "map": "DLCQMap",
                 "x": 2760,
                 "y": 1650,
-                "size": 48,
+                "size": 64,
                 "border_thickness": 1
             }
         ],
