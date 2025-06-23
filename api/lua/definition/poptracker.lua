@@ -10,16 +10,22 @@
 
 ---@alias AnyObject JsonItem | LuaItem | LocationSection | Location
 
+---Options for extra debug output
+--- - fps: enable FPS output in console
+--- - errors: enable more detailed error reporting
+---@see DEBUG
+---@alias DebugOption "fps"|"errors"
 
 ---- Globals ----
 
 ---Currently running PopTracker version as string "x.y.z".
 ---@type string
-PopVersion = "0.27.1"
+PopVersion = "0.32.0"
 -- Actual value comes from the program, not from here, but try to keep in sync with API version here.
 
----Set to true to get more error or debug output.
----@type boolean
+---Set to true or an array of strings to get more error or debug output.
+---@see DebugOption
+---@type nil | boolean | (DebugOption)[]
 DEBUG = false
 
 ---If defined in global scope, called when a game is connected (currently memory interfaces only).
@@ -80,8 +86,16 @@ function Tracker:FindObjectForCode(code) end
 function Tracker:UiHint(name, value) end
 
 ---pause evaluating logic rules when set to true
+---NOTE: Since failing to set BulkUpdate back to false will stop PopTracker from updating, make sure your code between setting BulkUpdate is error resistant (for example by using pcall).
 ---@type boolean
 Tracker.BulkUpdate = false
+
+---Allow to evaluate logic rules fewer times than items are updated.
+---Only available in PopTracker, since 0.28.1.
+---Since 0.31.0 defaults to true for flag 'ap' and gets initialized from settings.json. Honors target_poptracker_version.
+---Use as: `if Tracker.AllowDeferredLogicUpdate ~= nil then Tracker.AllowDeferredLogicUpdate = true end`
+---@type boolean
+Tracker.AllowDeferredLogicUpdate = false
 
 
 ---- ScriptHost ----
@@ -156,7 +170,7 @@ function ScriptHost:RemoveWatchForCode(name) end
 
 ---callback(store, {variableName, ...}) will be called whenever a remote variable changes.
 ---See [AUTOTRACKING.md](https://github.com/black-sliver/PopTracker/blob/master/doc/AUTOTRACKING.md#variable-interface-uat)
--- and [UAT REDME.md](https://github.com/black-sliver/UAT/blob/master/README.md) for more info.
+-- and [UAT README.md](https://github.com/black-sliver/UAT/blob/master/README.md) for more info.
 ---@param name string identifier/name of this watch
 ---@param variables string[] array of variable names
 ---@param callback fun(store:VariableStore, changedKeysArray:table):nil called when any watched variable changes
@@ -390,7 +404,7 @@ function Archipelago:SetNotify(keys) end
 function Archipelago:LocationChecks(locations) end
 
 ---Send locations as scouted to the server.
----Supported since 0.26.2, only allowed if "apmanual" flag is set in manifest.
+---Supported since 0.26.2, only allowed if "apmanual" or "aphintgame" flag is set in manifest.
 ---@param locations integer[]
 ---@param sendAsHint integer
 ---@return boolean true on success
@@ -401,6 +415,32 @@ function Archipelago:LocationScouts(locations, sendAsHint) end
 ---@param status archipelagoCientStatus
 ---@return boolean true on success
 function Archipelago:StatusUpdate(status) end
+
+---Get alias/name of a player.
+---Supported since 0.28.1.
+---@param slot integer
+---@return string alias of the player or "Unknown" if not found
+function Archipelago:GetPlayerAlias(slot) end
+
+---Get game name of a player.
+---Supported since 0.28.1.
+---@param slot integer
+---@return string name of the game or "Unknown" if not found
+function Archipelago:GetPlayerGame(slot) end
+
+---Get item name for a specific game.
+---Supported since 0.28.1.
+---@param id integer item id
+---@param game string name of the game
+---@return string name of the item or "Unknown" if not found
+function Archipelago:GetItemName(id, game) end
+
+---Get item name for a specific game.
+---Supported since 0.28.1.
+---@param id integer item id
+---@param game string name of the game
+---@return string name of the location or "Unknown" if not found
+function Archipelago:GetLocationName(id, game) end
 
 
 ---- ImageRef ----
@@ -417,7 +457,7 @@ ImageRef = {}
 ImageReference = {}
 
 ---Create an image reference from filename.
----Note: currently path resultion happens when the ImageRef is being used, so there is no way to detect errors.
+---Note: currently path resolution happens when the ImageRef is being used, so there is no way to detect errors.
 ---@param filename string
 ---@return ImageRef reference to the image for filename
 function ImageReference:FromPackRelativePath(filename) end
@@ -439,6 +479,17 @@ AccessibilityLevel = {
     SequenceBreak = 5,
     Normal = 6,
     Cleared = 7,
+}
+
+---- Highlight (enum) ----
+
+---@enum highlight
+Highlight = {
+    Avoid = -1,
+    None = 0,
+    NoPriority = 1,
+    Unspecified = 2,
+    Priority = 3,
 }
 
 
@@ -523,6 +574,11 @@ function LuaItem:Get(key) end
 ---@param text string
 function LuaItem:SetOverlay(text) end
 
+---Set item overlay text color (default context dependent).
+---PopTracker, since 0.31.0.
+---@param color string "#rgb", "#rrggbb", "#argb", "#aarrggbb" or "" (default)
+function LuaItem:SetOverlayColor(color) end
+
 ---Set item overlay background color (default transparent).
 ---PopTracker, since 0.17.0.
 ---@param background string "#rgb", "#rrggbb", "#argb", "#aarrggbb" or "" (transparent)
@@ -539,6 +595,18 @@ function LuaItem:SetOverlayFontSize(fontSize) end
 ---PopTracker, since 0.25.9
 ---@param align HAlign "horizontal alignment of overlay text"
 function LuaItem:SetOverlayAlign(align) end
+
+---Set item overlay text, same as SetOverlay.
+---Since PopTracker 0.31.0.
+---@see LuaItem.SetOverlay
+---@type string
+LuaItem.BadgeText = ""
+
+---Set item overlay text color, same as SetOverlayColor.
+---Since PopTracker 0.31.0.
+---@see LuaItem.SetOverlayColor
+---@type string
+LuaItem.BadgeTextColor = ""
 
 
 ---- JsonItem ----
@@ -599,6 +667,11 @@ JsonItem.IgnoreUserInput = false
 ---@param text string
 function JsonItem:SetOverlay(text) end
 
+---Set item overlay text color (default context dependent).
+---PopTracker, since 0.31.0.
+---@param color string "#rgb", "#rrggbb", "#argb", "#aarrggbb" or "" (default)
+function JsonItem:SetOverlayColor(color) end
+
 ---Set item overlay background color (default transparent).
 ---PopTracker, since 0.17.0.
 ---@param background string "#rgb", "#rrggbb", "#argb", "#aarrggbb" or "" (transparent)
@@ -614,6 +687,17 @@ function JsonItem:SetOverlayFontSize(fontSize) end
 ---@param align HAlign "horizontal alignment of overlay text"
 function JsonItem:SetOverlayAlign(align) end
 
+---Set item overlay text, same as SetOverlay.
+---Since PopTracker 0.31.0.
+---@see JsonItem.SetOverlay
+---@type string
+JsonItem.BadgeText = ""
+
+---Set item overlay text color, same as SetOverlayColor.
+---Since PopTracker 0.31.0.
+---@see JsonItem.SetOverlayColor
+---@type string
+JsonItem.BadgeTextColor = ""
 
 ---- Location ----
 
@@ -650,3 +734,8 @@ LocationSection.AccessibilityLevel = 0
 ---Read-only, returning the full id as string such as "Location/Section"
 ---@type string
 LocationSection.FullID = ""
+
+---Read/write current highlight state of the section. One of the `Highlight` constants.
+---Since PopTracker 0.32.0.
+---@type highlight
+LocationSection.Highlight = 0
