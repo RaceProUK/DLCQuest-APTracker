@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.7.0",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.7.0/dlcquest_rando_raceprouk.zip",
+            "sha256": "31693cd78ba30f0f68a70fd57a3bde110108d513919f750960e9372127bbc2d1",
+            "changelog": [
+                "Optimised the size and resolution of all image resources to minimise pack size and memory usage"
+            ]
+        },
+        {
             "package_version": "0.6.5",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.6.5/dlcquest_rando_raceprouk.zip",
             "sha256": "4db9742998be5259481b4f2a14906b7082e8485418226e4cdfb4446571307e4d",
