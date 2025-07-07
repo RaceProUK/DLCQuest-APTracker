@@ -6,9 +6,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 6632,
-                "y": 1112,
-                "size": 96,
+                "x": 995,
+                "y": 167,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -30,9 +30,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4601,
-                "y": 1814,
-                "size": 96,
+                "x": 690,
+                "y": 272,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -62,9 +62,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 6475,
-                "y": 1383,
-                "size": 96,
+                "x": 971,
+                "y": 207,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -90,9 +90,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 7048,
-                "y": 1680,
-                "size": 96,
+                "x": 1057,
+                "y": 252,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -118,9 +118,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 5418,
-                "y": 2390,
-                "size": 96,
+                "x": 813,
+                "y": 359,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -146,9 +146,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 6248,
-                "y": 2152,
-                "size": 96,
+                "x": 937,
+                "y": 323,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -174,9 +174,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 915,
-                "y": 4410,
-                "size": 96,
+                "x": 137,
+                "y": 662,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -202,9 +202,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 3112,
-                "y": 344,
-                "size": 96,
+                "x": 467,
+                "y": 52,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -229,9 +229,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 5748,
-                "y": 1520,
-                "size": 96,
+                "x": 862,
+                "y": 228,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -253,9 +253,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 3768,
-                "y": 680,
-                "size": 96,
+                "x": 565,
+                "y": 102,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -281,9 +281,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 6968,
-                "y": 560,
-                "size": 96,
+                "x": 1045,
+                "y": 84,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -309,9 +309,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 5118,
-                "y": 625,
-                "size": 96,
+                "x": 768,
+                "y": 94,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -337,9 +337,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 7496,
-                "y": 1088,
-                "size": 96,
+                "x": 1124,
+                "y": 163,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -364,9 +364,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2970,
-                "y": 4220,
-                "size": 96,
+                "x": 446,
+                "y": 633,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -391,9 +391,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 920,
-                "y": 3590,
-                "size": 96,
+                "x": 138,
+                "y": 539,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -418,9 +418,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 7592,
-                "y": 2024,
-                "size": 96,
+                "x": 1139,
+                "y": 304,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -442,9 +442,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4680,
-                "y": 5000,
-                "size": 96,
+                "x": 702,
+                "y": 750,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -468,9 +468,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4824,
-                "y": 4352,
-                "size": 96,
+                "x": 724,
+                "y": 653,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -495,9 +495,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 7974,
-                "y": 4502,
-                "size": 96,
+                "x": 1196,
+                "y": 675,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -530,9 +530,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 6904,
-                "y": 2568,
-                "size": 96,
+                "x": 1036,
+                "y": 385,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -556,9 +556,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 5898,
-                "y": 1250,
-                "size": 96,
+                "x": 885,
+                "y": 188,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -583,9 +583,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 1592,
-                "y": 680,
-                "size": 96,
+                "x": 239,
+                "y": 102,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -610,9 +610,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 2298,
-                "y": 1030,
-                "size": 96,
+                "x": 345,
+                "y": 155,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -633,9 +633,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4968,
-                "y": 1320,
-                "size": 96,
+                "x": 745,
+                "y": 198,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -653,9 +653,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4096,
-                "y": 2900,
-                "size": 96,
+                "x": 614,
+                "y": 435,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
@@ -674,9 +674,9 @@
         "map_locations": [
             {
                 "map": "LFODMap",
-                "x": 4224,
-                "y": 2900,
-                "size": 96,
+                "x": 634,
+                "y": 435,
+                "size": 14,
                 "border_thickness": 1
             }
         ],
