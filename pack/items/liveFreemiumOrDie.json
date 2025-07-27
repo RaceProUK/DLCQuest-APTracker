@@ -24,7 +24,7 @@
         "codes": "Pickaxe"
     },
     {
-        "name": "Coins",
+        "name": "Coins received from Coinsanity",
         "type": "consumable",
         "max_quantity": 889,
         "initial_quantity": 0,

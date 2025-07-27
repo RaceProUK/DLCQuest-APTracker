@@ -12,7 +12,7 @@
         "codes": "Gun"
     },
     {
-        "name": "Coins",
+        "name": "Coins received from Coinsanity",
         "type": "consumable",
         "max_quantity": 825,
         "initial_quantity": 0,
