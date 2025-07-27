@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.7.1",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.7.1/dlcquest_rando_raceprouk.zip",
+            "sha256": "667bc870cc46c44d5bbc0b76dc2ed25efe58e1a659e1f0dc0071fd2acc3a9b1d",
+            "changelog": [
+                "Added cost check to LFOD Final Boss checks",
+                "Clarified the Coins Received items"
+            ]
+        },
+        {
             "package_version": "0.7.0",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.7.0/dlcquest_rando_raceprouk.zip",
             "sha256": "31693cd78ba30f0f68a70fd57a3bde110108d513919f750960e9372127bbc2d1",
