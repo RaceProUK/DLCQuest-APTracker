@@ -490,7 +490,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "Pickaxe,PackWallJump,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword,[PackHarmlessPlants],$CanPassNameChangeGate"
+            "Pickaxe,PackWallJump,PackSeasonPass,PackBigSword,PackReallyBigSword,PackUnfathomableSword,[PackHarmlessPlants],$CanPassNameChangeGate,$HasSufficientLFODBalance|200"
         ],
         "map_locations": [
             {
