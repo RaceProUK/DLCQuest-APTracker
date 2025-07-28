@@ -1,0 +1,5 @@
+theme: jekyll-theme-hacker
+title: DLC Quest Archipelago Auto-Tracker
+description: A PopTracker pack for DLC Quest with Archipelago integration
+github:
+  is_project_page: false
