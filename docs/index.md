@@ -1,7 +1,4 @@
----
-title:
----
-# Installation and Use
+## Installation and Use
 
 This guide assumes you’ve already installed [PopTracker](https://github.com/black-sliver/PopTracker/releases/latest).
 
