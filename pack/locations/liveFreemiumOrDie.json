@@ -84,8 +84,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword",
-            "Pickaxe"
+            "$IsArmedLFOD"
         ],
         "map_locations": [
             {
@@ -112,8 +111,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword",
-            "Pickaxe"
+            "$IsArmedLFOD"
         ],
         "map_locations": [
             {
@@ -140,8 +138,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword",
-            "Pickaxe"
+            "$IsArmedLFOD"
         ],
         "map_locations": [
             {
@@ -168,8 +165,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,$CanPassNameChangeGate",
-            "Pickaxe,PackWallJump,$CanPassNameChangeGate"
+            "$IsArmedLFOD,PackWallJump,$CanPassNameChangeGate"
         ],
         "map_locations": [
             {
@@ -196,8 +192,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump",
-            "Pickaxe,PackWallJump"
+            "$IsArmedLFOD,PackWallJump"
         ],
         "map_locations": [
             {
@@ -247,8 +242,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump",
-            "Pickaxe,PackWallJump"
+            "$IsArmedLFOD,PackWallJump"
         ],
         "map_locations": [
             {
@@ -275,8 +269,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump",
-            "Pickaxe,PackWallJump"
+            "$IsArmedLFOD,PackWallJump"
         ],
         "map_locations": [
             {
@@ -303,8 +296,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,PackHarmlessPlants",
-            "Pickaxe,PackWallJump,PackHarmlessPlants"
+            "$IsArmedLFOD,PackWallJump,PackHarmlessPlants"
         ],
         "map_locations": [
             {
@@ -331,8 +323,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,PackHarmlessPlants",
-            "Pickaxe,PackWallJump,PackHarmlessPlants"
+            "$IsArmedLFOD,PackWallJump,PackHarmlessPlants"
         ],
         "map_locations": [
             {
@@ -521,8 +512,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,HumbleIndieBindle",
-            "Pickaxe,HumbleIndieBindle"
+            "$IsArmedLFOD,HumbleIndieBindle"
         ],
         "visibility_rules": [
             "ItemsShuffled"
@@ -601,8 +591,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "NormalSword,PackWallJump,PackCutContent,SuppliesBox,[PackHarmlessPlants]",
-            "Pickaxe,PackWallJump,PackCutContent,SuppliesBox,[PackHarmlessPlants]"
+            "$IsArmedLFOD,PackWallJump,PackCutContent,SuppliesBox,[PackHarmlessPlants]"
         ],
         "visibility_rules": [
             "ItemsShuffled"

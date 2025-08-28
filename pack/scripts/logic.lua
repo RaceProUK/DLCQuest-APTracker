@@ -21,6 +21,18 @@ function MovementOrCoinsanity()
     end
 end
 
+--Check if we're armed regardless of weapon
+function IsArmedDLCQ()
+    local sword = Tracker:FindObjectForCode("Sword")
+    local gun = Tracker:FindObjectForCode("Gun")
+    return (sword and sword.Active) or (gun and gun.Active)
+end
+function IsArmedLFOD()
+    local sword = Tracker:FindObjectForCode("NormalSword")
+    local pickaxe = Tracker:FindObjectForCode("Pickaxe")
+    return (sword and sword.Active) or (pickaxe and pickaxe.Active)
+end
+
 --It's impossible to track spent coins, so:
 --When Coinsanity is on, check against the total value of collected coin bundles
 --When Coinsanity is off, check against the total number of reachable coins

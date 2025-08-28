@@ -89,8 +89,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,Sword",
-            "PackMovement,Gun"
+            "PackMovement,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -116,8 +115,7 @@
                 "chest_unopened_img": "images/Sheep.png",
                 "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
-                    "Sword,[PackDoubleJump]",
-                    "Gun,[PackDoubleJump]"
+                    "$IsArmedDLCQ,[PackDoubleJump]"
                 ]
             },
             {
@@ -163,8 +161,7 @@
                 "chest_unopened_img": "images/Sheep.png",
                 "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
-                    "Sword",
-                    "Gun"
+                    "$IsArmedDLCQ"
                 ]
             }
         ]
@@ -174,8 +171,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,[PackDoubleJump],Sword",
-            "PackMovement,[PackDoubleJump],Gun"
+            "PackMovement,[PackDoubleJump],$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -234,8 +230,7 @@
                 "chest_unopened_img": "images/Sheep.png",
                 "chest_opened_img": "images/SheepDead.png",
                 "access_rules": [
-                    "Sword",
-                    "Gun"
+                    "$IsArmedDLCQ"
                 ]
             }
         ]
@@ -245,8 +240,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,Sword",
-            "PackMovement,Gun"
+            "PackMovement,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -273,8 +267,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackMap,Sword",
-            "PackMovement,PackMap,Gun"
+            "PackMovement,PackMap,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -301,8 +294,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,[PackDoubleJump],PackMap,Sword",
-            "PackMovement,[PackDoubleJump],PackMap,Gun"
+            "PackMovement,[PackDoubleJump],PackMap,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -329,8 +321,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackMap,Sword",
-            "PackMovement,PackMap,Gun"
+            "PackMovement,PackMap,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -438,8 +429,7 @@
         "chest_unopened_img": "images/Pack.png",
         "chest_opened_img": "images/PackGrey.png",
         "access_rules": [
-            "PackMovement,PackGun,Sword",
-            "PackMovement,PackGun,Gun"
+            "PackMovement,PackGun,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -465,8 +455,7 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,[PackDoubleJump],PackMap,Sword",
-            "PackMovement,[PackDoubleJump],PackMap,Gun"
+            "PackMovement,[PackDoubleJump],PackMap,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -493,8 +482,7 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,Sword",
-            "PackMovement,Gun"
+            "PackMovement,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -517,8 +505,7 @@
         "chest_unopened_img": "images/Sheep.png",
         "chest_opened_img": "images/SheepDead.png",
         "access_rules": [
-            "PackMovement,Sword",
-            "PackMovement,Gun"
+            "PackMovement,$IsArmedDLCQ"
         ],
         "map_locations": [
             {
@@ -557,8 +544,7 @@
                 "name": "Shepherd Sheep",
                 "item_count": 1,
                 "access_rules": [
-                    "Sword",
-                    "Gun"
+                    "$IsArmedDLCQ"
                 ]
             }
         ]
@@ -584,16 +570,14 @@
                 "name": "North West Ceiling Sheep",
                 "item_count": 1,
                 "access_rules": [
-                    "Sword",
-                    "Gun"
+                    "$IsArmedDLCQ"
                 ]
             },
             {
                 "name": "North West Alcove Sheep",
                 "item_count": 1,
                 "access_rules": [
-                    "Sword",
-                    "Gun"
+                    "$IsArmedDLCQ"
                 ]
             }
         ]
