@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.7.2",
+            "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.7.2/dlcquest_rando_raceprouk.zip",
+            "sha256": "be7b880bc27aefe9709afc28d91b57aed20d0ddbcc2033fa357079d4f12d05f1",
+            "changelog": [
+                "Dark Zone checks are now considered Out of Logic with only the Wall Jump Pack"
+            ]
+        },
+        {
             "package_version": "0.7.1",
             "download_url": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/download/v0.7.1/dlcquest_rando_raceprouk.zip",
             "sha256": "667bc870cc46c44d5bbc0b76dc2ed25efe58e1a659e1f0dc0071fd2acc3a9b1d",
